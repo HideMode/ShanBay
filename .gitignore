@@ -1,0 +1,19 @@
+static/bower_components/
+*/__pycache__
+*/migrations
+*.log
+*.pot
+*.pyc
+*~
+*.swp
+*tmp
+*.ini
+*.pid
+*DS_Store
+*.csv
+*/settings
+.idea
+# Staticfiles
+staticfiles/
+meida/audio/
+node_modules/

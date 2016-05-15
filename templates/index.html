@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>翻转课堂教学平台</title>
+
+  <base href="/" />
+
+  {% include 'stylesheets.html' %}
+</head>
+
+<body layout='row'>
+    <nav-bar></nav-bar>
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-xs-12 ui-view"></div>
+        </div>
+    </div>
+  {% include 'javascripts.html' %}
+  {% load static %}
+  <!-- requirejs 入口文件 -->
+  <script type="text/javascript" data-main="{% static 'javascripts/main.js' %}" src="{% static 'bower_components/requirejs/require.js' %}"></script>
+</body>
+</html>

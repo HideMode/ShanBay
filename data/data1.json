@@ -1,0 +1,1464 @@
+{
+    "msg": "SUCCESS",
+    "status_code": 0,
+    "data": {
+        "reviews": [{
+            "en_definitions": {
+                "v": ["enter into a log, as on ships and planes", "cut lumber, as in woods and forests"],
+                "n": ["a segment of the trunk of a tree when stripped of branches", "the exponent required to produce a given number", "a written record of messages sent or received"]
+            },
+            "pronunciations": {
+                "uk": "l\u0252\u0261",
+                "us": "l\u0254\u02d0\u0261"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fl%2Flo%2Flog.mp3", "http://words-audio.cdn.shanbay.com/uk/l/lo/log.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fl%2Flo%2Flog.mp3", "http://words-audio.cdn.shanbay.com/us/l/lo/log.mp3"]
+            },
+            "sys_example_ids": [3320464, 243336, 243335],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/log.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "log",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u8bb0\u5f55,\u5706\u6728,\u65e5\u5fd7,\u8ba1\u7a0b\u4eea\nvt. \u4f10\u6728,\u5207,\u8bb0\u5f55,\u822a\u884c,\u5ea6\u8fc7(\u65f6\u95f4)\nvi. \u91c7\u4f10"
+            },
+            "shared_note_ids": [28513, 21851],
+            "sense_id": 0,
+            "id": 34261212088,
+            "retention": 0,
+            "definition": " n. \u8bb0\u5f55,\u5706\u6728,\u65e5\u5fd7,\u8ba1\u7a0b\u4eea\nvt. \u4f10\u6728,\u5207,\u8bb0\u5f55,\u822a\u884c,\u5ea6\u8fc7(\u65f6\u95f4)\nvi. \u91c7\u4f10",
+            "audio": "http://media.shanbay.com/audio/us/log.mp3",
+            "test_choice_ids": [80686, 2089, 3822, 105277],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "log",
+            "pron": "l\u0254\u02d0\u0261",
+            "en_definition": {
+                "pos": "v",
+                "defn": "enter into a log, as on ships and planes; cut lumber, as in woods and forests"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 3822,
+            "us_audio": "http://media.shanbay.com/audio/us/log.mp3"
+        }, {
+            "en_definitions": {
+                "n": ["a formal expression by a meeting; agreed to by a vote", "the ability of a microscope or telescope to measure the angular separation of images that are close together", "the trait of being resolute"]
+            },
+            "pronunciations": {
+                "uk": "\u02ccrez\u0259'lu\u02d0\u0283n",
+                "us": "\u02ccrez\u0259'lu\u02d0\u0283n"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fr%2Fre%2Fresolution.mp3", "http://words-audio.cdn.shanbay.com/uk/r/re/resolution.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fr%2Fre%2Fresolution.mp3", "http://words-audio.cdn.shanbay.com/us/r/re/resolution.mp3"]
+            },
+            "sys_example_ids": [224, 225, 249579],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/resolution.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "resolution",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n.\u51b3\u5fc3\uff1b \u89e3\u51b3\uff1b \u575a\u51b3\uff1b \u5206\u8fa8\u7387"
+            },
+            "shared_note_ids": [28302, 8383],
+            "sense_id": 0,
+            "id": 34261212130,
+            "retention": 0,
+            "definition": " n.\u51b3\u5fc3\uff1b \u89e3\u51b3\uff1b \u575a\u51b3\uff1b \u5206\u8fa8\u7387",
+            "audio": "http://media.shanbay.com/audio/us/resolution.mp3",
+            "test_choice_ids": [53274, 85, 82306, 10034],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "resolution",
+            "pron": "\u02ccrez\u0259'lu\u02d0\u0283n",
+            "en_definition": {
+                "pos": "n",
+                "defn": "a formal expression by a meeting; agreed to by a vote; the ability of a microscope or telescope to measure the angular separation of images that are close together; the trait of being resolute"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 85,
+            "us_audio": "http://media.shanbay.com/audio/us/resolution.mp3"
+        }, {
+            "en_definitions": {
+                "n": ["a person who seeks the advice of a lawyer", "someone who pays for goods or services", "(computer science) any computer that is hooked up to a computer network"]
+            },
+            "pronunciations": {
+                "uk": "'kla\u026a\u0259nt",
+                "us": "'kla\u026a\u0259nt"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fc%2Fcl%2Fclient.mp3", "http://words-audio.cdn.shanbay.com/uk/c/cl/client.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fc%2Fcl%2Fclient.mp3", "http://words-audio.cdn.shanbay.com/us/c/cl/client.mp3"]
+            },
+            "sys_example_ids": [3319609, 18394, 18393],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/client.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "client",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n.\u987e\u5ba2\uff1b \u5f53\u4e8b\u4eba\uff1b \u8bc9\u8bbc\u59d4\u6258\u4eba\uff1b [\u8ba1\u7b97\u673a]\u5ba2\u6237\u7aef"
+            },
+            "shared_note_ids": [14272, 14277],
+            "sense_id": 0,
+            "id": 34261212085,
+            "retention": 0,
+            "definition": " n.\u987e\u5ba2\uff1b \u5f53\u4e8b\u4eba\uff1b \u8bc9\u8bbc\u59d4\u6258\u4eba\uff1b [\u8ba1\u7b97\u673a]\u5ba2\u6237\u7aef",
+            "audio": "http://media.shanbay.com/audio/us/client.mp3",
+            "test_choice_ids": [4030, 6963, 126877, 15862],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "client",
+            "pron": "'kla\u026a\u0259nt",
+            "en_definition": {
+                "pos": "n",
+                "defn": "a person who seeks the advice of a lawyer; someone who pays for goods or services; (computer science) any computer that is hooked up to a computer network"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 6963,
+            "us_audio": "http://media.shanbay.com/audio/us/client.mp3"
+        }, {
+            "en_definitions": {
+                "v": ["put in motion or move to act", "release or pull the trigger on"],
+                "n": ["lever that activates the firing mechanism of a gun", "a device that activates or releases or causes something to happen", "an act that sets in motion some course of events"]
+            },
+            "pronunciations": {
+                "uk": "'tr\u026a\u0261\u0259(r)",
+                "us": "'tr\u026a\u0261\u0259r"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Ft%2Ftr%2Ftrigger.mp3", "http://words-audio.cdn.shanbay.com/uk/t/tr/trigger.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Ft%2Ftr%2Ftrigger.mp3", "http://words-audio.cdn.shanbay.com/us/t/tr/trigger.mp3"]
+            },
+            "sys_example_ids": [1325161, 3321211, 1325155],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/trigger.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "trigger",
+            "cn_definition": {
+                "pos": "",
+                "defn": "vt. \u5f15\u53d1\uff0c\u5f15\u8d77\uff1b\u89e6\u53d1\nvi. \u677e\u5f00\u6273\u67c4\nn. \u6273\u673a\uff1b[\u7535\u5b50] \u89e6\u53d1\u5668\uff1b\u5236\u6ed1\u673a"
+            },
+            "shared_note_ids": [1072, 1071],
+            "sense_id": 0,
+            "id": 34261212124,
+            "retention": 0,
+            "definition": " vt. \u5f15\u53d1\uff0c\u5f15\u8d77\uff1b\u89e6\u53d1\nvi. \u677e\u5f00\u6273\u67c4\nn. \u6273\u673a\uff1b[\u7535\u5b50] \u89e6\u53d1\u5668\uff1b\u5236\u6ed1\u673a",
+            "audio": "http://media.shanbay.com/audio/us/trigger.mp3",
+            "test_choice_ids": [32278, 31605, 4427, 8357],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "trigger",
+            "pron": "'tr\u026a\u0261\u0259r",
+            "en_definition": {
+                "pos": "v",
+                "defn": "put in motion or move to act; release or pull the trigger on"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 8357,
+            "us_audio": "http://media.shanbay.com/audio/us/trigger.mp3"
+        }, {
+            "en_definitions": {
+                "adj": ["displaying numbers rather than scale positions", "relating to or performed with the fingers", "of a circuit or device that represents magnitudes in digits"]
+            },
+            "pronunciations": {
+                "uk": "'d\u026ad\u0292\u026atl",
+                "us": "'d\u026ad\u0292\u026atl"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fd%2Fdi%2Fdigital.mp3", "http://words-audio.cdn.shanbay.com/uk/d/di/digital.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fd%2Fdi%2Fdigital.mp3", "http://words-audio.cdn.shanbay.com/us/d/di/digital.mp3"]
+            },
+            "sys_example_ids": [1335640, 1335643, 1335646],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/digital.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "digital",
+            "cn_definition": {
+                "pos": "",
+                "defn": "adj. \u624b\u6307\u7684,\u6570\u5b57\u7684,\u6570\u7801\u7684,\u7535\u5b50\u7684"
+            },
+            "shared_note_ids": [213652, 46279],
+            "sense_id": 0,
+            "id": 34261212061,
+            "retention": 0,
+            "definition": " adj. \u624b\u6307\u7684,\u6570\u5b57\u7684,\u6570\u7801\u7684,\u7535\u5b50\u7684",
+            "audio": "http://media.shanbay.com/audio/us/digital.mp3",
+            "test_choice_ids": [73905, 2100, 4809, 9307],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "digital",
+            "pron": "'d\u026ad\u0292\u026atl",
+            "en_definition": {
+                "pos": "adj",
+                "defn": "displaying numbers rather than scale positions; relating to or performed with the fingers; of a circuit or device that represents magnitudes in digits"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 2100,
+            "us_audio": "http://media.shanbay.com/audio/us/digital.mp3"
+        }, {
+            "en_definitions": {
+                "n": ["a position on a scale of intensity or amount or quality", "a relative position or degree of value in a graded group", "a specific identifiable position in a continuum or series or especially in a process"],
+                "adj": ["having a surface without slope, tilt in which no part is higher or lower than another", "not showing abrupt variations", "being on a precise horizontal plane"],
+                "v": ["aim at", "tear down so as to make flat with the ground", "make level or straight"]
+            },
+            "pronunciations": {
+                "uk": "'levl",
+                "us": "'levl"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fl%2Fle%2Flevel.mp3", "http://words-audio.cdn.shanbay.com/uk/l/le/level.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fl%2Fle%2Flevel.mp3", "http://words-audio.cdn.shanbay.com/us/l/le/level.mp3"]
+            },
+            "sys_example_ids": [242928, 242929, 242930],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/level.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "level",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u6c34\u5e73,\u7b49\u7ea7,\u6807\u51c6,\u5c42\u6b21\nadj. \u5e73\u5766\u7684,\u9f50\u5e73\u7684,\u7a33\u5b9a\u7684,\u5408\u7406\u7684,\u6ee1\u6ee1\u7684\nvt. \u538b\u5e73,\u4f7f\u540c\u7b49,\u7784\u51c6,\u5937\u4e3a\u5e73\u5730,\u63a8\u7ffb, \u6307\u8d23\nvi. \u8d8b\u5411\u5e73\u7a33, \u7784\u51c6, \u8bda\u6073\u5f85\u4eba, \u4f7f\u5e73\u7b49"
+            },
+            "shared_note_ids": [9090, 25709],
+            "sense_id": 0,
+            "id": 34261212070,
+            "retention": 0,
+            "definition": " n. \u6c34\u5e73,\u7b49\u7ea7,\u6807\u51c6,\u5c42\u6b21\nadj. \u5e73\u5766\u7684,\u9f50\u5e73\u7684,\u7a33\u5b9a\u7684,\u5408\u7406\u7684,\u6ee1\u6ee1\u7684\nvt. \u538b\u5e73,\u4f7f\u540c\u7b49,\u7784\u51c6,\u5937\u4e3a\u5e73\u5730,\u63a8\u7ffb, \u6307\u8d23\nvi. \u8d8b\u5411\u5e73\u7a33, \u7784\u51c6, \u8bda\u6073\u5f85\u4eba, \u4f7f\u5e73\u7b49",
+            "audio": "http://media.shanbay.com/audio/us/level.mp3",
+            "test_choice_ids": [18494, 3741, 13695, 31605],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "level",
+            "pron": "'levl",
+            "en_definition": {
+                "pos": "n",
+                "defn": "a position on a scale of intensity or amount or quality; a relative position or degree of value in a graded group; a specific identifiable position in a continuum or series or especially in a process"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 3741,
+            "us_audio": "http://media.shanbay.com/audio/us/level.mp3"
+        }, {
+            "en_definitions": {
+                "n": ["the act of offering an improvement to replace a mistake; setting right", "a quantity that is added or subtracted in order to increase the accuracy of a scientific measure", "something substituted for an error"]
+            },
+            "pronunciations": {
+                "uk": "k\u0259'rek\u0283n",
+                "us": "k\u0259'rek\u0283n"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fc%2Fco%2Fcorrection.mp3", "http://words-audio.cdn.shanbay.com/uk/c/co/correction.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fc%2Fco%2Fcorrection.mp3", "http://words-audio.cdn.shanbay.com/us/c/co/correction.mp3"]
+            },
+            "sys_example_ids": [4744, 233773, 1335199],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/correction.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "correction",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u8ba2\u6b63, \u6539\u6b63, \u6539\u6b63\u7684\u5730\u65b9"
+            },
+            "shared_note_ids": [102360, 121927],
+            "sense_id": 0,
+            "id": 34261212082,
+            "retention": 0,
+            "definition": " n. \u8ba2\u6b63, \u6539\u6b63, \u6539\u6b63\u7684\u5730\u65b9",
+            "audio": "http://media.shanbay.com/audio/us/correction.mp3",
+            "test_choice_ids": [550, 698, 8329, 1861],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "correction",
+            "pron": "k\u0259'rek\u0283n",
+            "en_definition": {
+                "pos": "n",
+                "defn": "the act of offering an improvement to replace a mistake; setting right; a quantity that is added or subtracted in order to increase the accuracy of a scientific measure; something substituted for an error"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 1861,
+            "us_audio": "http://media.shanbay.com/audio/us/correction.mp3"
+        }, {
+            "en_definitions": {
+                "v": ["copy down as is", "reproduce someone's behavior or looks", "reproduce or make an exact copy of"],
+                "n": ["a reproduction of a written record (e.g. of a legal or school record)", "a thing made to be similar or identical to another thing", "matter to be printed; exclusive of graphical materials"]
+            },
+            "pronunciations": {
+                "uk": "'k\u0252pi",
+                "us": "'k\u0251\u02d0pi"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fc%2Fco%2Fcopy.mp3", "http://words-audio.cdn.shanbay.com/uk/c/co/copy.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fc%2Fco%2Fcopy.mp3", "http://words-audio.cdn.shanbay.com/us/c/co/copy.mp3"]
+            },
+            "sys_example_ids": [4723, 233734, 233735],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/copy.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "copy",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n.\u590d\u5236\u54c1\uff1b \u4e00\u4efd\uff1b \uff08\u62a5\u520a\u7b49\u7684\uff09\u7a3f\u4ef6\uff1b \u51c6\u5907\u6392\u5370\u7684\u4e66\u9762\u6750\u6599\nvt.& vi.\u590d\u5236\uff1b \u6284\u5199\uff1b \u5bb9\u8bb8\u590d\u5236\u7684\nvt.\u6a21\u4eff\uff1b \u4eff\u9020\u2026\u7684\u6837\u5f0f\u6216\u56fe\u6848\uff1b \u6284\u5199\uff1b \u590d\u5236"
+            },
+            "shared_note_ids": [100865, 343532],
+            "sense_id": 0,
+            "id": 34261212118,
+            "retention": 0,
+            "definition": " n.\u590d\u5236\u54c1\uff1b \u4e00\u4efd\uff1b \uff08\u62a5\u520a\u7b49\u7684\uff09\u7a3f\u4ef6\uff1b \u51c6\u5907\u6392\u5370\u7684\u4e66\u9762\u6750\u6599\nvt.& vi.\u590d\u5236\uff1b \u6284\u5199\uff1b \u5bb9\u8bb8\u590d\u5236\u7684\nvt.\u6a21\u4eff\uff1b \u4eff\u9020\u2026\u7684\u6837\u5f0f\u6216\u56fe\u6848\uff1b \u6284\u5199\uff1b \u590d\u5236",
+            "audio": "http://media.shanbay.com/audio/us/copy.mp3",
+            "test_choice_ids": [33083, 32278, 8340, 1854],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "copy",
+            "pron": "'k\u0251\u02d0pi",
+            "en_definition": {
+                "pos": "v",
+                "defn": "copy down as is; reproduce someone's behavior or looks; reproduce or make an exact copy of"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 1854,
+            "us_audio": "http://media.shanbay.com/audio/us/copy.mp3"
+        }, {
+            "en_definitions": {
+                "n": ["(computer science) the part of a computer (a microprocessor chip) that does most of the data processing"]
+            },
+            "pronunciations": {
+                "uk": "\u02ccsi\u02d0pi\u02d0'ju\u02d0",
+                "us": "\u02ccsi\u02d0pi\u02d0'ju\u02d0"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fc%2Fcp%2Fcpu.mp3", "http://words-audio.cdn.shanbay.com/uk/c/cp/cpu.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fc%2Fcp%2Fcpu.mp3", "http://words-audio.cdn.shanbay.com/us/c/cp/cpu.mp3"]
+            },
+            "sys_example_ids": [458360, 458361, 458359],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/cpu.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "CPU",
+            "cn_definition": {
+                "pos": "",
+                "defn": "abbr. [\u8ba1\u7b97\u673a]\u4e2d\u592e\u5904\u7406\u5668(=central processing unit)"
+            },
+            "shared_note_ids": [7368373],
+            "sense_id": 0,
+            "id": 34261212106,
+            "retention": 0,
+            "definition": " abbr. [\u8ba1\u7b97\u673a]\u4e2d\u592e\u5904\u7406\u5668(=central processing unit)",
+            "audio": "http://media.shanbay.com/audio/us/CPU.mp3",
+            "test_choice_ids": [10265, 10763, 40500, 95773],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "CPU",
+            "pron": "\u02ccsi\u02d0pi\u02d0'ju\u02d0",
+            "en_definition": {
+                "pos": "n",
+                "defn": "(computer science) the part of a computer (a microprocessor chip) that does most of the data processing"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 95773,
+            "us_audio": "http://media.shanbay.com/audio/us/cpu.mp3"
+        }, {
+            "en_definitions": {
+                "n": ["an act of being a tenant or occupant", "the act of occupying or taking possession of a building"]
+            },
+            "pronunciations": {
+                "uk": "'\u0252kj\u0259p\u0259nsi",
+                "us": "'\u0251\u02d0kj\u0259p\u0259nsi"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fo%2Foc%2Foccupancy.mp3", "http://words-audio.cdn.shanbay.com/uk/o/oc/occupancy.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fo%2Foc%2Foccupancy.mp3", "http://words-audio.cdn.shanbay.com/us/o/oc/occupancy.mp3"]
+            },
+            "sys_example_ids": [245618, 54459, 54458],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/occupancy.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "occupancy",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u5360\u6709, \u5360\u7528\uff0c\u5c45\u4f4f\u671f\u95f4"
+            },
+            "shared_note_ids": [600236, 128389],
+            "sense_id": 0,
+            "id": 34261212043,
+            "retention": 0,
+            "definition": " n. \u5360\u6709, \u5360\u7528\uff0c\u5c45\u4f4f\u671f\u95f4",
+            "audio": "http://media.shanbay.com/audio/us/occupancy.mp3",
+            "test_choice_ids": [24315, 81013, 16404, 18091],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "occupancy",
+            "pron": "'\u0251\u02d0kj\u0259p\u0259nsi",
+            "en_definition": {
+                "pos": "n",
+                "defn": "an act of being a tenant or occupant; the act of occupying or taking possession of a building"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 24315,
+            "us_audio": "http://media.shanbay.com/audio/us/occupancy.mp3"
+        }, {
+            "en_definitions": {
+                "n": ["an organized body of related information"]
+            },
+            "pronunciations": {
+                "uk": "'de\u026at\u0259be\u026as",
+                "us": "'de\u026at\u0259be\u026as"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fd%2Fda%2Fdatabase.mp3", "http://words-audio.cdn.shanbay.com/uk/d/da/database.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fd%2Fda%2Fdatabase.mp3", "http://words-audio.cdn.shanbay.com/us/d/da/database.mp3"]
+            },
+            "sys_example_ids": [1359112, 30265, 1359115],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/database.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "database",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u6570\u636e\u5e93"
+            },
+            "shared_note_ids": [162021, 279045],
+            "sense_id": 0,
+            "id": 34261212079,
+            "retention": 0,
+            "definition": " n. \u6570\u636e\u5e93",
+            "audio": "http://media.shanbay.com/audio/us/database.mp3",
+            "test_choice_ids": [10763, 12702, 18400, 30696],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "database",
+            "pron": "'de\u026at\u0259be\u026as",
+            "en_definition": {
+                "pos": "n",
+                "defn": "an organized body of related information"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 12702,
+            "us_audio": "http://media.shanbay.com/audio/us/database.mp3"
+        }, {
+            "en_definitions": {
+                "n": ["the act of increasing (something) in size or volume or quantity or scope", "a function expressed as a sum or product of terms", "a discussion that provides additional information"]
+            },
+            "pronunciations": {
+                "uk": "\u026ak'sp\u00e6n\u0283n",
+                "us": "\u026ak'sp\u00e6n\u0283n"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fe%2Fex%2Fexpansion.mp3", "http://words-audio.cdn.shanbay.com/uk/e/ex/expansion.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fe%2Fex%2Fexpansion.mp3", "http://words-audio.cdn.shanbay.com/us/e/ex/expansion.mp3"]
+            },
+            "sys_example_ids": [6402, 236915, 236916],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/expansion.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "expansion",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u6269\u5927,\u81a8\u80c0,\u6269\u5145"
+            },
+            "shared_note_ids": [7867, 7868],
+            "sense_id": 0,
+            "id": 34261212049,
+            "retention": 0,
+            "definition": " n. \u6269\u5927,\u81a8\u80c0,\u6269\u5145",
+            "audio": "http://media.shanbay.com/audio/us/expansion.mp3",
+            "test_choice_ids": [73905, 2477, 14726, 18400],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "expansion",
+            "pron": "\u026ak'sp\u00e6n\u0283n",
+            "en_definition": {
+                "pos": "n",
+                "defn": "the act of increasing (something) in size or volume or quantity or scope; a function expressed as a sum or product of terms; a discussion that provides additional information"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 2477,
+            "us_audio": "http://media.shanbay.com/audio/us/expansion.mp3"
+        }, {
+            "en_definitions": {
+                "v": ["list in an index", "provide with an index", "adjust through indexation"],
+                "n": ["a numerical scale used to compare variables with one another or with some reference number", "a number or ratio (a value on a scale of measurement) derived from a series of observed facts; can reveal relative changes as a function of time", "a mathematical notation indicating the number of times a quantity is multiplied by itself"]
+            },
+            "pronunciations": {
+                "uk": "'\u026andeks",
+                "us": "'\u026andeks"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fi%2Fin%2Findex.mp3", "http://words-audio.cdn.shanbay.com/uk/i/in/index.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fi%2Fin%2Findex.mp3", "http://words-audio.cdn.shanbay.com/us/i/in/index.mp3"]
+            },
+            "sys_example_ids": [8899, 8900, 8901],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/index.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "index",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n.\u7d22\u5f15\uff1b <\u6570>\u6307\u6570\uff1b \u6307\u793a\uff1b \u6807\u5fd7\nvt.\u7ed9\u2026\u7f16\u7d22\u5f15\uff1b \u628a\u2026\u7f16\u5165\u7d22\u5f15\uff1b [\u7ecf\u6d4e\u5b66]\u6309\u751f\u6d3b\u6307\u6570\u8c03\u6574\uff08\u5de5\u8d44\u3001\u4ef7\u683c\u7b49\uff09\nvi.[\u673a\u68b0\u5b66]\u8f6c\u4f4d"
+            },
+            "shared_note_ids": [70168, 97701],
+            "sense_id": 0,
+            "id": 34261212142,
+            "retention": 0,
+            "definition": " n.\u7d22\u5f15\uff1b <\u6570>\u6307\u6570\uff1b \u6307\u793a\uff1b \u6807\u5fd7\nvt.\u7ed9\u2026\u7f16\u7d22\u5f15\uff1b \u628a\u2026\u7f16\u5165\u7d22\u5f15\uff1b [\u7ecf\u6d4e\u5b66]\u6309\u751f\u6d3b\u6307\u6570\u8c03\u6574\uff08\u5de5\u8d44\u3001\u4ef7\u683c\u7b49\uff09\nvi.[\u673a\u68b0\u5b66]\u8f6c\u4f4d",
+            "audio": "http://media.shanbay.com/audio/us/index.mp3",
+            "test_choice_ids": [63769, 87667, 8065, 3412],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "index",
+            "pron": "'\u026andeks",
+            "en_definition": {
+                "pos": "v",
+                "defn": "list in an index; provide with an index; adjust through indexation"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 3412,
+            "us_audio": "http://media.shanbay.com/audio/us/index.mp3"
+        }, {
+            "en_definitions": {
+                "n": ["a document giving an official instruction or command", "the power or right to give orders or make decisions", "official permission or approval"]
+            },
+            "pronunciations": {
+                "uk": "\u02cc\u0254\u02d0\u03b8\u0259ra\u026a'ze\u026a\u0283n",
+                "us": "\u02cc\u0254\u02d0\u03b8\u0259r\u0259'ze\u026a\u0283n"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fa%2Fau%2Fauthorization.mp3", "http://words-audio.cdn.shanbay.com/uk/a/au/authorization.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fa%2Fau%2Fauthorization.mp3", "http://words-audio.cdn.shanbay.com/us/a/au/authorization.mp3"]
+            },
+            "sys_example_ids": [29197, 29198, 29199],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/authorization.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "authorization",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u6388\u6743(\u4e66),\u8ba4\u53ef"
+            },
+            "shared_note_ids": [142540, 398261],
+            "sense_id": 0,
+            "id": 34261212094,
+            "retention": 0,
+            "definition": " n. \u6388\u6743(\u4e66),\u8ba4\u53ef",
+            "audio": "http://media.shanbay.com/audio/us/authorization.mp3",
+            "test_choice_ids": [105277, 3864, 11956, 18400],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "authorization",
+            "pron": "\u02cc\u0254\u02d0\u03b8\u0259r\u0259'ze\u026a\u0283n",
+            "en_definition": {
+                "pos": "n",
+                "defn": "a document giving an official instruction or command; the power or right to give orders or make decisions; official permission or approval"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 11956,
+            "us_audio": "http://media.shanbay.com/audio/us/authorization.mp3"
+        }, {
+            "en_definitions": {},
+            "pronunciations": {
+                "uk": "b\u00e6k \u028cp",
+                "us": "b\u00e6k \u028cp"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fb%2Fba%2Fback_up.mp3", "http://words-audio.cdn.shanbay.com/uk/b/ba/back_up.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fb%2Fba%2Fback_up.mp3", "http://words-audio.cdn.shanbay.com/us/b/ba/back_up.mp3"]
+            },
+            "sys_example_ids": [2761, 2762, 639491],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/back_up.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "back_up",
+            "cn_definition": {
+                "pos": "",
+                "defn": "vi. (\u56e0\u79ef\u805a\u800c)\u62e5\u5835, \u5835\u585e\nvt. \u652f\u6301, \u63f4\u52a9, \u5012\u9000, \uff08\u8d44\u6599\uff09\u5907\u4efd"
+            },
+            "shared_note_ids": [23120, 151795],
+            "sense_id": 0,
+            "id": 34261212091,
+            "retention": 0,
+            "definition": " vi. (\u56e0\u79ef\u805a\u800c)\u62e5\u5835, \u5835\u585e\nvt. \u652f\u6301, \u63f4\u52a9, \u5012\u9000, \uff08\u8d44\u6599\uff09\u5907\u4efd",
+            "audio": "http://media.shanbay.com/audio/us/back_up.mp3",
+            "test_choice_ids": [8329, 3478, 1089, 104338],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "back up",
+            "pron": "b\u00e6k \u028cp",
+            "en_definition": {},
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 1089,
+            "us_audio": "http://media.shanbay.com/audio/us/back_up.mp3"
+        }, {
+            "en_definitions": {
+                "v": ["fill with apprehension or alarm; cause to be unpleasantly surprised", "warn or arouse to a sense of danger or call to a state of preparedness"],
+                "n": ["fear resulting from the awareness of danger", "a device that signals the occurrence of some undesirable event", "an automatic signal (usually a sound) warning of danger"]
+            },
+            "pronunciations": {
+                "uk": "\u0259'l\u0251\u02d0m",
+                "us": "\u0259'l\u0251\u02d0rm"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fa%2Fal%2Falarm.mp3", "http://words-audio.cdn.shanbay.com/uk/a/al/alarm.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fa%2Fal%2Falarm.mp3", "http://words-audio.cdn.shanbay.com/us/a/al/alarm.mp3"]
+            },
+            "sys_example_ids": [2156, 2157, 228934],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/alarm.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "alarm",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u8b66\u62a5,\u60ca\u614c,\u8b66\u544a,\u62a5\u8b66\u5668\nvt. \u4f7f...\u60ca\u614c,\u8b66\u544a, \u88c5\u62a5\u8b66\u5668"
+            },
+            "shared_note_ids": [47985, 20307],
+            "sense_id": 0,
+            "id": 34261212076,
+            "retention": 0,
+            "definition": " n. \u8b66\u62a5,\u60ca\u614c,\u8b66\u544a,\u62a5\u8b66\u5668\nvt. \u4f7f...\u60ca\u614c,\u8b66\u544a, \u88c5\u62a5\u8b66\u5668",
+            "audio": "http://media.shanbay.com/audio/us/alarm.mp3",
+            "test_choice_ids": [73826, 849, 7668, 1306],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "alarm",
+            "pron": "\u0259'l\u0251\u02d0rm",
+            "en_definition": {
+                "pos": "v",
+                "defn": "fill with apprehension or alarm; cause to be unpleasantly surprised; warn or arouse to a sense of danger or call to a state of preparedness"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 849,
+            "us_audio": "http://media.shanbay.com/audio/us/alarm.mp3"
+        }, {
+            "en_definitions": {
+                "n": ["an instrumentality invented for a particular purpose", "something in an artistic work designed to achieve a particular effect", "any clever maneuver"]
+            },
+            "pronunciations": {
+                "uk": "d\u026a'va\u026as",
+                "us": "d\u026a'va\u026as"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fd%2Fde%2Fdevice.mp3", "http://words-audio.cdn.shanbay.com/uk/d/de/device.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fd%2Fde%2Fdevice.mp3", "http://words-audio.cdn.shanbay.com/us/d/de/device.mp3"]
+            },
+            "sys_example_ids": [5328, 235009, 5326],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/device.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "device",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u88c5\u7f6e, \u8bbe\u8ba1, \u7b56\u7565, \u8bbe\u5907"
+            },
+            "shared_note_ids": [258907, 7916],
+            "sense_id": 0,
+            "id": 34261212109,
+            "retention": 0,
+            "definition": " n. \u88c5\u7f6e, \u8bbe\u8ba1, \u7b56\u7565, \u8bbe\u5907",
+            "audio": "http://media.shanbay.com/audio/us/device.mp3",
+            "test_choice_ids": [27270, 2067, 73826, 83545],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "device",
+            "pron": "d\u026a'va\u026as",
+            "en_definition": {
+                "pos": "n",
+                "defn": "an instrumentality invented for a particular purpose; something in an artistic work designed to achieve a particular effect; any clever maneuver"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 2067,
+            "us_audio": "http://media.shanbay.com/audio/us/device.mp3"
+        }, {
+            "en_definitions": {
+                "n": ["the state of being anonymous"]
+            },
+            "pronunciations": {
+                "uk": "\u02cc\u00e6n\u0259'n\u026am\u0259ti",
+                "us": "\u02cc\u00e6n\u0259'n\u026am\u0259ti"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fa%2Fan%2Fanonymity.mp3", "http://words-audio.cdn.shanbay.com/uk/a/an/anonymity.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fa%2Fan%2Fanonymity.mp3", "http://words-audio.cdn.shanbay.com/us/a/an/anonymity.mp3"]
+            },
+            "sys_example_ids": [1500505, 1500511],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/anonymity.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "anonymity",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u533f\u540d, \u7b14\u8005\u4e0d\u660e"
+            },
+            "shared_note_ids": [190395, 45446],
+            "sense_id": 0,
+            "id": 34261212034,
+            "retention": 0,
+            "definition": " n. \u533f\u540d, \u7b14\u8005\u4e0d\u660e",
+            "audio": "http://media.shanbay.com/audio/us/anonymity.mp3",
+            "test_choice_ids": [52945, 11785, 119, 61253],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "anonymity",
+            "pron": "\u02cc\u00e6n\u0259'n\u026am\u0259ti",
+            "en_definition": {
+                "pos": "n",
+                "defn": "the state of being anonymous"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 11785,
+            "us_audio": "http://media.shanbay.com/audio/us/anonymity.mp3"
+        }, {
+            "en_definitions": {
+                "n": ["equipment for taking photographs (usually consisting of a lightproof box with a lens at one end and light-sensitive film at the other)", "television equipment consisting of a lens system that focuses an image on a photosensitive mosaic that is scanned by an electron beam"]
+            },
+            "pronunciations": {
+                "uk": "'k\u00e6m\u0259r\u0259",
+                "us": "'k\u00e6m\u0259r\u0259"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fc%2Fca%2Fcamera.mp3", "http://words-audio.cdn.shanbay.com/uk/c/ca/camera.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fc%2Fca%2Fcamera.mp3", "http://words-audio.cdn.shanbay.com/us/c/ca/camera.mp3"]
+            },
+            "sys_example_ids": [3624, 3625, 3623],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/camera.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "camera",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u6444\u50cf\u673a,\u7167\u76f8\u673a"
+            },
+            "shared_note_ids": [142224, 349518],
+            "sense_id": 0,
+            "id": 34261212115,
+            "retention": 0,
+            "definition": " n. \u6444\u50cf\u673a,\u7167\u76f8\u673a",
+            "audio": "http://media.shanbay.com/audio/us/camera.mp3",
+            "test_choice_ids": [46309, 1461, 8340, 9753],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "camera",
+            "pron": "'k\u00e6m\u0259r\u0259",
+            "en_definition": {
+                "pos": "n",
+                "defn": "equipment for taking photographs (usually consisting of a lightproof box with a lens at one end and light-sensitive film at the other); television equipment consisting of a lens system that focuses an image on a photosensitive mosaic that is scanned by an electron beam"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 1461,
+            "us_audio": "http://media.shanbay.com/audio/us/camera.mp3"
+        }, {
+            "en_definitions": {
+                "n": ["a purposeful or industrious undertaking (especially one that requires effort or boldness)", "an organization created for business ventures", "readiness to embark on bold new ventures"]
+            },
+            "pronunciations": {
+                "uk": "'ent\u0259pra\u026az",
+                "us": "'ent\u0259rpra\u026az"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fe%2Fen%2Fenterprise.mp3", "http://words-audio.cdn.shanbay.com/uk/e/en/enterprise.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fe%2Fen%2Fenterprise.mp3", "http://words-audio.cdn.shanbay.com/us/e/en/enterprise.mp3"]
+            },
+            "sys_example_ids": [236529, 236530, 3319861],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/enterprise.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "enterprise",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u4f01\u4e1a,\u4f01\u5212,\u8fdb\u53d6\u5fc3"
+            },
+            "shared_note_ids": [29955, 69541],
+            "sense_id": 0,
+            "id": 34261212133,
+            "retention": 0,
+            "definition": " n. \u4f01\u4e1a,\u4f01\u5212,\u8fdb\u53d6\u5fc3",
+            "audio": "http://media.shanbay.com/audio/us/enterprise.mp3",
+            "test_choice_ids": [5635, 90344, 7236, 60027],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "enterprise",
+            "pron": "'ent\u0259rpra\u026az",
+            "en_definition": {
+                "pos": "n",
+                "defn": "a purposeful or industrious undertaking (especially one that requires effort or boldness); an organization created for business ventures; readiness to embark on bold new ventures"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 7236,
+            "us_audio": "http://media.shanbay.com/audio/us/enterprise.mp3"
+        }, {
+            "en_definitions": {
+                "n": ["an alphabetical list of names and addresses", "(computer science) a listing of the files stored in memory (usually on a hard disk)"]
+            },
+            "pronunciations": {
+                "uk": "d\u0259'rekt\u0259ri",
+                "us": "d\u0259'rekt\u0259ri"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fd%2Fdi%2Fdirectory.mp3", "http://words-audio.cdn.shanbay.com/uk/d/di/directory.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fd%2Fdi%2Fdirectory.mp3", "http://words-audio.cdn.shanbay.com/us/d/di/directory.mp3"]
+            },
+            "sys_example_ids": [3319768, 18862, 18863],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/directory.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "directory",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u76ee\u5f55,\u5de5\u5546\u540d\u5f55,\u6307\u5357\n[\u8ba1\u7b97\u673a] \u76ee\u5f55\nadj. \u7ed9\u4e88\u6307\u5bfc\u7684"
+            },
+            "shared_note_ids": [82304, 126613],
+            "sense_id": 0,
+            "id": 34261212100,
+            "retention": 0,
+            "definition": " n. \u76ee\u5f55,\u5de5\u5546\u540d\u5f55,\u6307\u5357\n[\u8ba1\u7b97\u673a] \u76ee\u5f55\nadj. \u7ed9\u4e88\u6307\u5bfc\u7684",
+            "audio": "http://media.shanbay.com/audio/us/directory.mp3",
+            "test_choice_ids": [18091, 8065, 7147, 9753],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "directory",
+            "pron": "d\u0259'rekt\u0259ri",
+            "en_definition": {
+                "pos": "n",
+                "defn": "an alphabetical list of names and addresses; (computer science) a listing of the files stored in memory (usually on a hard disk)"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 7147,
+            "us_audio": "http://media.shanbay.com/audio/us/directory.mp3"
+        }, {
+            "en_definitions": {
+                "v": ["refresh one's memory", "make (to feel) fresh", "become or make oneself fresh again"]
+            },
+            "pronunciations": {
+                "uk": "r\u026a'fre\u0283",
+                "us": "r\u026a'fre\u0283"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fr%2Fre%2Frefresh.mp3", "http://words-audio.cdn.shanbay.com/uk/r/re/refresh.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fr%2Fre%2Frefresh.mp3", "http://words-audio.cdn.shanbay.com/us/r/re/refresh.mp3"]
+            },
+            "sys_example_ids": [249264, 13272, 249263],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/refresh.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "refresh",
+            "cn_definition": {
+                "pos": "",
+                "defn": "vt.& vi. \u4f7f...\u751f\u6c14\u84ec\u52c3,\u63d0\u8d77\u7cbe\u795e,\u6062\u590d\u7cbe\u795e"
+            },
+            "shared_note_ids": [161978, 15509],
+            "sense_id": 0,
+            "id": 34261212103,
+            "retention": 0,
+            "definition": " vt.& vi. \u4f7f...\u751f\u6c14\u84ec\u52c3,\u63d0\u8d77\u7cbe\u795e,\u6062\u590d\u7cbe\u795e",
+            "audio": "http://media.shanbay.com/audio/us/refresh.mp3",
+            "test_choice_ids": [3963, 46309, 105277, 5022],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "refresh",
+            "pron": "r\u026a'fre\u0283",
+            "en_definition": {
+                "pos": "v",
+                "defn": "refresh one's memory; make (to feel) fresh; become or make oneself fresh again"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 5022,
+            "us_audio": "http://media.shanbay.com/audio/us/refresh.mp3"
+        }, {
+            "en_definitions": {
+                "n": ["something additional of the same kind", "a copy that corresponds to an original exactly"],
+                "adj": ["identically copied from an original", "being two identical"],
+                "v": ["make or do or perform again", "duplicate or match", "make a duplicate or duplicates of"]
+            },
+            "pronunciations": {
+                "uk": "'dju\u02d0pl\u026ak\u0259t",
+                "us": "'du\u02d0pl\u026ak\u0259t"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fd%2Fdu%2Fduplicate.mp3", "http://words-audio.cdn.shanbay.com/uk/d/du/duplicate.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fd%2Fdu%2Fduplicate.mp3", "http://words-audio.cdn.shanbay.com/us/d/du/duplicate.mp3"]
+            },
+            "sys_example_ids": [18984, 65528, 18985],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/duplicate.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "duplicate",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u526f\u672c,\u590d\u5236\u54c1\nadj. \u590d\u5236\u7684,\u4e8c\u91cd\u7684\nvt. \u590d\u5236,\u91cd\u590d\nvi. \u91cd\u590d\n[\u8ba1\u7b97\u673a] \u590d\u5236"
+            },
+            "shared_note_ids": [69201, 23804],
+            "sense_id": 0,
+            "id": 34261212121,
+            "retention": 0,
+            "definition": " n. \u526f\u672c,\u590d\u5236\u54c1\nadj. \u590d\u5236\u7684,\u4e8c\u91cd\u7684\nvt. \u590d\u5236,\u91cd\u590d\nvi. \u91cd\u590d\n[\u8ba1\u7b97\u673a] \u590d\u5236",
+            "audio": "http://media.shanbay.com/audio/us/duplicate.mp3",
+            "test_choice_ids": [7191, 4809, 8340, 63769],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "duplicate",
+            "pron": "'du\u02d0pl\u026ak\u0259t",
+            "en_definition": {
+                "pos": "n",
+                "defn": "something additional of the same kind; a copy that corresponds to an original exactly"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 7191,
+            "us_audio": "http://media.shanbay.com/audio/us/duplicate.mp3"
+        }, {
+            "en_definitions": {
+                "n": ["something that is remembered", "the cognitive processes whereby past experience is remembered", "the power of retaining and recalling past experience"]
+            },
+            "pronunciations": {
+                "uk": "'mem\u0259ri",
+                "us": "'mem\u0259ri"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fm%2Fme%2Fmemory.mp3", "http://words-audio.cdn.shanbay.com/uk/m/me/memory.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fm%2Fme%2Fmemory.mp3", "http://words-audio.cdn.shanbay.com/us/m/me/memory.mp3"]
+            },
+            "sys_example_ids": [244201, 244198, 244199],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/memory.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "memory",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u8bb0\u5fc6,\u5185\u5b58,\u56de\u5fc6"
+            },
+            "shared_note_ids": [140072, 232805],
+            "sense_id": 0,
+            "id": 34261212067,
+            "retention": 0,
+            "definition": " n. \u8bb0\u5fc6,\u5185\u5b58,\u56de\u5fc6",
+            "audio": "http://media.shanbay.com/audio/us/memory.mp3",
+            "test_choice_ids": [29239, 62260, 4025, 26688],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "memory",
+            "pron": "'mem\u0259ri",
+            "en_definition": {
+                "pos": "n",
+                "defn": "something that is remembered; the cognitive processes whereby past experience is remembered; the power of retaining and recalling past experience"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 4025,
+            "us_audio": "http://media.shanbay.com/audio/us/memory.mp3"
+        }, {
+            "en_definitions": {
+                "n": ["the number of occurrences within a given time period", "the ratio of the number of observations in a statistical category to the total number of observations", "the number of observations in a given statistical category"]
+            },
+            "pronunciations": {
+                "uk": "'fri\u02d0kw\u0259nsi",
+                "us": "'fri\u02d0kw\u0259nsi"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Ff%2Ffr%2Ffrequency.mp3", "http://words-audio.cdn.shanbay.com/uk/f/fr/frequency.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Ff%2Ffr%2Ffrequency.mp3", "http://words-audio.cdn.shanbay.com/us/f/fr/frequency.mp3"]
+            },
+            "sys_example_ids": [3320065, 1339222, 7206],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/frequency.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "frequency",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n.&amp;adj. \u9891\u7e41,\u9891\u7387"
+            },
+            "shared_note_ids": [22537, 25804],
+            "sense_id": 0,
+            "id": 34261212097,
+            "retention": 0,
+            "definition": " n.&amp;adj. \u9891\u7e41,\u9891\u7387",
+            "audio": "http://media.shanbay.com/audio/us/frequency.mp3",
+            "test_choice_ids": [10265, 14013, 2766, 31605],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "frequency",
+            "pron": "'fri\u02d0kw\u0259nsi",
+            "en_definition": {
+                "pos": "n",
+                "defn": "the number of occurrences within a given time period; the ratio of the number of observations in a statistical category to the total number of observations; the number of observations in a given statistical category"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 2766,
+            "us_audio": "http://media.shanbay.com/audio/us/frequency.mp3"
+        }, {
+            "en_definitions": {
+                "v": ["supply with a set of articles or tools"],
+                "n": ["a case for containing a set of articles", "gear consisting of a set of articles or tools for a specified purpose", "young of any of various fur-bearing animals"]
+            },
+            "pronunciations": {
+                "uk": "k\u026at",
+                "us": "k\u026at"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fk%2Fki%2Fkit.mp3", "http://words-audio.cdn.shanbay.com/uk/k/ki/kit.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fk%2Fki%2Fkit.mp3", "http://words-audio.cdn.shanbay.com/us/k/ki/kit.mp3"]
+            },
+            "sys_example_ids": [242368, 3224647, 242367],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/kit.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "kit",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u88c5\u5907,\u5de5\u5177\u7bb1\nvt. \u88c5\u5907"
+            },
+            "shared_note_ids": [114843, 23591],
+            "sense_id": 0,
+            "id": 34261212052,
+            "retention": 0,
+            "definition": " n. \u88c5\u5907,\u5de5\u5177\u7bb1\nvt. \u88c5\u5907",
+            "audio": "http://media.shanbay.com/audio/us/kit.mp3",
+            "test_choice_ids": [122121, 104338, 40500, 7642],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "kit",
+            "pron": "k\u026at",
+            "en_definition": {
+                "pos": "v",
+                "defn": "supply with a set of articles or tools"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 7642,
+            "us_audio": "http://media.shanbay.com/audio/us/kit.mp3"
+        }, {
+            "en_definitions": {
+                "v": ["operate or control a vehicle", "travel or be transported in a vehicle", "cause someone or something to move by driving"],
+                "n": ["the act of applying force to propel something", "a mechanism by which force or power is transmitted in a machine", "a series of actions advancing a principle or tending toward a particular end"]
+            },
+            "pronunciations": {
+                "uk": "dra\u026av",
+                "us": "dra\u026av"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fd%2Fdr%2Fdrive.mp3", "http://words-audio.cdn.shanbay.com/uk/d/dr/drive.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fd%2Fdr%2Fdrive.mp3", "http://words-audio.cdn.shanbay.com/us/d/dr/drive.mp3"]
+            },
+            "sys_example_ids": [235792, 235793, 235791],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/drive.mp3",
+            "review_status": 0,
+            "is_new": false,
+            "audio_name": "drive",
+            "cn_definition": {
+                "pos": "",
+                "defn": "v. \u5f00\u8f66, \u9a71\u4f7f, \u9a7e\u8fdb\u529b\nn. \u9a7e\u8f66, \u5feb\u8f66\u9053, \u63a8\u8fdb\u529b, \u9a71\u4f7f, \u8def, \u8857"
+            },
+            "shared_note_ids": [247831, 16863],
+            "sense_id": 0,
+            "id": 34261212058,
+            "retention": 0,
+            "definition": " v. \u5f00\u8f66, \u9a71\u4f7f, \u9a7e\u8fdb\u529b\nn. \u9a7e\u8f66, \u5feb\u8f66\u9053, \u63a8\u8fdb\u529b, \u9a71\u4f7f, \u8def, \u8857",
+            "audio": "http://media.shanbay.com/audio/us/drive.mp3",
+            "test_choice_ids": [41621, 19775, 2236, 118355],
+            "learning_note_ids": [158492],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "drive",
+            "pron": "dra\u026av",
+            "en_definition": {
+                "pos": "v",
+                "defn": "operate or control a vehicle; travel or be transported in a vehicle; cause someone or something to move by driving"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 2236,
+            "us_audio": "http://media.shanbay.com/audio/us/drive.mp3"
+        }, {
+            "en_definitions": {
+                "n": ["a lightweight waterproof (usually rubberized) fabric", "a waterproof raincoat made of rubberized fabric"]
+            },
+            "pronunciations": {
+                "uk": "'m\u00e6kint\u0254\u0283",
+                "us": "'m\u00e6kint\u0254\u0283"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fm%2Fma%2Fmacintosh.mp3", "http://words-audio.cdn.shanbay.com/uk/m/ma/macintosh.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fm%2Fma%2Fmacintosh.mp3", "http://words-audio.cdn.shanbay.com/us/m/ma/macintosh.mp3"]
+            },
+            "sys_example_ids": [],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/macintosh.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "Macintosh",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u82f9\u679c\u673a\uff0c\u4e00\u79cd\u4e2a\u4eba\u7535\u8111"
+            },
+            "shared_note_ids": [4373044, 1446454],
+            "sense_id": 0,
+            "id": 34261212145,
+            "retention": 0,
+            "definition": " n. \u82f9\u679c\u673a\uff0c\u4e00\u79cd\u4e2a\u4eba\u7535\u8111",
+            "audio": "http://media.shanbay.com/audio/us/Macintosh.mp3",
+            "test_choice_ids": [30189, 14502, 15862, 5635],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "Macintosh",
+            "pron": "'m\u00e6kint\u0254\u0283",
+            "en_definition": {
+                "pos": "n",
+                "defn": "a lightweight waterproof (usually rubberized) fabric; a waterproof raincoat made of rubberized fabric"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 30189,
+            "us_audio": "http://media.shanbay.com/audio/us/macintosh.mp3"
+        }, {
+            "en_definitions": {
+                "v": ["send cables, wires, or telegrams", "fasten with a cable"],
+                "n": ["a telegram sent abroad", "a conductor for transmitting electrical or optical signals or electric power", "a very strong thick rope made of twisted hemp or steel wire"]
+            },
+            "pronunciations": {
+                "uk": "'ke\u026abl",
+                "us": "'ke\u026abl"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fc%2Fca%2Fcable.mp3", "http://words-audio.cdn.shanbay.com/uk/c/ca/cable.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fc%2Fca%2Fcable.mp3", "http://words-audio.cdn.shanbay.com/us/c/ca/cable.mp3"]
+            },
+            "sys_example_ids": [3561, 3562, 3563],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/cable.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "cable",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u7535\u7f06,\u6d77\u5e95\u7535\u62a5\nvt. \u6253\u6d77\u5e95\u7535\u62a5,\u628a...\u62e7\u6210\u7f06,\u7528\u7f06\u6346\u4f4f\nvi. \u6253\u6d77\u5e95\u7535\u62a5"
+            },
+            "shared_note_ids": [22464, 22091],
+            "sense_id": 0,
+            "id": 34261212037,
+            "retention": 0,
+            "definition": " n. \u7535\u7f06,\u6d77\u5e95\u7535\u62a5\nvt. \u6253\u6d77\u5e95\u7535\u62a5,\u628a...\u62e7\u6210\u7f06,\u7528\u7f06\u6346\u4f4f\nvi. \u6253\u6d77\u5e95\u7535\u62a5",
+            "audio": "http://media.shanbay.com/audio/us/cable.mp3",
+            "test_choice_ids": [25923, 5766, 1439, 14636],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "cable",
+            "pron": "'ke\u026abl",
+            "en_definition": {
+                "pos": "v",
+                "defn": "send cables, wires, or telegrams; fasten with a cable"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 1439,
+            "us_audio": "http://media.shanbay.com/audio/us/cable.mp3"
+        }, {
+            "en_definitions": {
+                "adj": ["(digital communication) pertaining to a transmission technique that does not require a common clock between the communicating devices; timing signals are derived from special characters in the data stream itself", "not synchronous; not occurring or existing at the same time or having the same period or phase"]
+            },
+            "pronunciations": {
+                "uk": "e\u026a's\u026a\u014bkr\u0259n\u0259s",
+                "us": "e\u026a's\u026a\u014bkr\u0259n\u0259s"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fa%2Fas%2Fasynchronous.mp3", "http://words-audio.cdn.shanbay.com/uk/a/as/asynchronous.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fa%2Fas%2Fasynchronous.mp3", "http://words-audio.cdn.shanbay.com/us/a/as/asynchronous.mp3"]
+            },
+            "sys_example_ids": [],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/asynchronous.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "asynchronous",
+            "cn_definition": {
+                "pos": "",
+                "defn": "adj. \u5f02\u6b65\u7684"
+            },
+            "shared_note_ids": [225033, 299996],
+            "sense_id": 0,
+            "id": 34261212112,
+            "retention": 0,
+            "definition": " adj. \u5f02\u6b65\u7684",
+            "audio": "http://media.shanbay.com/audio/us/asynchronous.mp3",
+            "test_choice_ids": [40359, 550, 25923, 35913],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "asynchronous",
+            "pron": "e\u026a's\u026a\u014bkr\u0259n\u0259s",
+            "en_definition": {
+                "pos": "adj",
+                "defn": "(digital communication) pertaining to a transmission technique that does not require a common clock between the communicating devices; timing signals are derived from special characters in the data stream itself; not synchronous; not occurring or existing at the same time or having the same period or phase"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 35913,
+            "us_audio": "http://media.shanbay.com/audio/us/asynchronous.mp3"
+        }, {
+            "en_definitions": {},
+            "pronunciations": {
+                "uk": "'l\u0252\u0261\u026an",
+                "us": "'l\u0254\u02d0\u0261\u026an"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fl%2Flo%2Flogin.mp3", "http://words-audio.cdn.shanbay.com/uk/l/lo/login.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fl%2Flo%2Flogin.mp3", "http://words-audio.cdn.shanbay.com/us/l/lo/login.mp3"]
+            },
+            "sys_example_ids": [],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/login.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "login",
+            "cn_definition": {
+                "pos": "",
+                "defn": "\u767b\u5f55, \u6ce8\u518c"
+            },
+            "shared_note_ids": [2255467, 691725],
+            "sense_id": 0,
+            "id": 34261212139,
+            "retention": 0,
+            "definition": " \u767b\u5f55, \u6ce8\u518c",
+            "audio": "http://media.shanbay.com/audio/us/login.mp3",
+            "test_choice_ids": [21392, 10222, 60027, 3478],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "login",
+            "pron": "'l\u0254\u02d0\u0261\u026an",
+            "en_definition": {},
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 21392,
+            "us_audio": "http://media.shanbay.com/audio/us/login.mp3"
+        }, {
+            "en_definitions": {
+                "v": ["discover the location of; determine the place of; find by searching or examining", "determine or indicate the place, site, or limits of, as if by an instrument or by a survey", "assign a location to"]
+            },
+            "pronunciations": {
+                "uk": "l\u0259\u028a'ke\u026at",
+                "us": "'lo\u028ake\u026at"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fl%2Flo%2Flocate.mp3", "http://words-audio.cdn.shanbay.com/uk/l/lo/locate.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fl%2Flo%2Flocate.mp3", "http://words-audio.cdn.shanbay.com/us/l/lo/locate.mp3"]
+            },
+            "sys_example_ids": [10008, 243305, 10007],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/locate.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "locate",
+            "cn_definition": {
+                "pos": "",
+                "defn": "vt. \u627e\u51fa,\u8bbe\u4e8e,\u4f4d\u4e8e,\u5efa\u7acb\nvi. \u5efa\u7acb"
+            },
+            "shared_note_ids": [108275, 128470],
+            "sense_id": 0,
+            "id": 34261212136,
+            "retention": 0,
+            "definition": " vt. \u627e\u51fa,\u8bbe\u4e8e,\u4f4d\u4e8e,\u5efa\u7acb\nvi. \u5efa\u7acb",
+            "audio": "http://media.shanbay.com/audio/us/locate.mp3",
+            "test_choice_ids": [3815, 62260, 122121, 24837],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "locate",
+            "pron": "'lo\u028ake\u026at",
+            "en_definition": {
+                "pos": "v",
+                "defn": "discover the location of; determine the place of; find by searching or examining; determine or indicate the place, site, or limits of, as if by an instrument or by a survey; assign a location to"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 3815,
+            "us_audio": "http://media.shanbay.com/audio/us/locate.mp3"
+        }, {
+            "en_definitions": {
+                "n": ["a collection of things that have been combined; an assemblage of separate parts or qualities", "a coordinated sequence of chess moves", "a sequence of numbers or letters that opens a combination lock"]
+            },
+            "pronunciations": {
+                "uk": "\u02cck\u0252mb\u026a'ne\u026a\u0283n",
+                "us": "\u02cck\u0251\u02d0mb\u026a'ne\u026a\u0283n"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fc%2Fco%2Fcombination.mp3", "http://words-audio.cdn.shanbay.com/uk/c/co/combination.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fc%2Fco%2Fcombination.mp3", "http://words-audio.cdn.shanbay.com/us/c/co/combination.mp3"]
+            },
+            "sys_example_ids": [4257, 4258, 4259],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/combination.mp3",
+            "review_status": 0,
+            "is_new": true,
+            "audio_name": "combination",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u7ed3\u5408,\u8054\u5408\uff0c\u8054\u5408\u4f53"
+            },
+            "shared_note_ids": [6378, 165868],
+            "sense_id": 0,
+            "id": 34261212127,
+            "retention": 0,
+            "definition": " n. \u7ed3\u5408,\u8054\u5408\uff0c\u8054\u5408\u4f53",
+            "audio": "http://media.shanbay.com/audio/us/combination.mp3",
+            "test_choice_ids": [18984, 27270, 1687, 4723],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "combination",
+            "pron": "\u02cck\u0251\u02d0mb\u026a'ne\u026a\u0283n",
+            "en_definition": {
+                "pos": "n",
+                "defn": "a collection of things that have been combined; an assemblage of separate parts or qualities; a coordinated sequence of chess moves; a sequence of numbers or letters that opens a combination lock"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 1687,
+            "us_audio": "http://media.shanbay.com/audio/us/combination.mp3"
+        }],
+        "result": {
+            "fetch_status": 0
+        }
+    }
+}

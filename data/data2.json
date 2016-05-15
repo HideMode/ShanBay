@@ -1,0 +1,626 @@
+{
+    "msg": "SUCCESS",
+    "status_code": 0,
+    "data": {
+        "reviews": [{
+            "en_definitions": {},
+            "pronunciations": {
+                "uk": "k\u028ct a\u028at",
+                "us": "k\u028ct a\u028at"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fc%2Fcu%2Fcut_out.mp3", "http://words-audio.cdn.shanbay.com/uk/c/cu/cut_out.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fc%2Fcu%2Fcut_out.mp3", "http://words-audio.cdn.shanbay.com/us/c/cu/cut_out.mp3"]
+            },
+            "sys_example_ids": [5008, 5009, 1399732],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/cut_out.mp3",
+            "review_status": 0,
+            "is_new": false,
+            "audio_name": "cut_out",
+            "cn_definition": {
+                "pos": "",
+                "defn": "\u5207\u65ad(\u6316\u53bb,\u65ad\u6d41\u5668,\u7ed3\u675f\u5de5\u4f5c,\u526a\u7eb8\u827a\u672f)"
+            },
+            "shared_note_ids": [184098, 171383],
+            "sense_id": 0,
+            "id": 34261212028,
+            "retention": 1,
+            "definition": " \u5207\u65ad(\u6316\u53bb,\u65ad\u6d41\u5668,\u7ed3\u675f\u5de5\u4f5c,\u526a\u7eb8\u827a\u672f)",
+            "audio": "http://media.shanbay.com/audio/us/cut_out.mp3",
+            "test_choice_ids": [12939, 1954, 13015, 1378],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "cut out",
+            "pron": "k\u028ct a\u028at",
+            "en_definition": {},
+            "user_example_ids": [],
+            "review_times": 1,
+            "content_id": 1954,
+            "us_audio": "http://media.shanbay.com/audio/us/cut_out.mp3"
+        }, {
+            "en_definitions": {
+                "v": ["test or examine for the presence of disease or infection", "examine methodically", "examine in order to test suitability"],
+                "n": ["a white or silvered surface where pictures can be projected for viewing", "a protective covering that keeps things out or hinders sight", "the display that is electronically created on the surface of the large end of a cathode-ray tube"]
+            },
+            "pronunciations": {
+                "uk": "skri\u02d0n",
+                "us": "skri\u02d0n"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fs%2Fsc%2Fscreen.mp3", "http://words-audio.cdn.shanbay.com/uk/s/sc/screen.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fs%2Fsc%2Fscreen.mp3", "http://words-audio.cdn.shanbay.com/us/s/sc/screen.mp3"]
+            },
+            "sys_example_ids": [250604, 250605, 250607],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/screen.mp3",
+            "review_status": 0,
+            "is_new": false,
+            "audio_name": "screen",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n.\u5c4f\u5e55\uff1b \u94f6\u5e55\uff1b \u5c4f\u98ce\nvt.\u7b5b\uff08\u7164\u3001\u77ff\u77f3\u7b49\uff09\uff1b \u62cd\u6444\uff1b \u653e\u6620\uff08\u7535\u5f71\uff09\uff1b \u5e87\u62a4"
+            },
+            "shared_note_ids": [9077, 11399],
+            "sense_id": 0,
+            "id": 34261212025,
+            "retention": 1,
+            "definition": " n.\u5c4f\u5e55\uff1b \u94f6\u5e55\uff1b \u5c4f\u98ce\nvt.\u7b5b\uff08\u7164\u3001\u77ff\u77f3\u7b49\uff09\uff1b \u62cd\u6444\uff1b \u653e\u6620\uff08\u7535\u5f71\uff09\uff1b \u5e87\u62a4",
+            "audio": "http://media.shanbay.com/audio/us/screen.mp3",
+            "test_choice_ids": [15428, 114849, 370, 26652],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "screen",
+            "pron": "skri\u02d0n",
+            "en_definition": {
+                "pos": "v",
+                "defn": "test or examine for the presence of disease or infection; examine methodically; examine in order to test suitability"
+            },
+            "user_example_ids": [],
+            "review_times": 1,
+            "content_id": 370,
+            "us_audio": "http://media.shanbay.com/audio/us/screen.mp3"
+        }, {
+            "en_definitions": {
+                "n": ["a sequence of 8 bits (enough to represent one character of alphanumeric data) processed as a single unit of information"]
+            },
+            "pronunciations": {
+                "uk": "ba\u026at",
+                "us": "ba\u026at"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fb%2Fby%2Fbyte.mp3", "http://words-audio.cdn.shanbay.com/uk/b/by/byte.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fb%2Fby%2Fbyte.mp3", "http://words-audio.cdn.shanbay.com/us/b/by/byte.mp3"]
+            },
+            "sys_example_ids": [391729, 391730, 391731],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/byte.mp3",
+            "review_status": 0,
+            "is_new": false,
+            "audio_name": "byte",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u5b57\u8282, 8\u4f4d\u5143\u7ec4"
+            },
+            "shared_note_ids": [891448, 1621015],
+            "sense_id": 0,
+            "id": 34261212040,
+            "retention": 1,
+            "definition": " n. \u5b57\u8282, 8\u4f4d\u5143\u7ec4",
+            "audio": "http://media.shanbay.com/audio/us/byte.mp3",
+            "test_choice_ids": [65184, 10377, 6231, 114849],
+            "learning_note_ids": [31872172, 31872181],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "byte",
+            "pron": "ba\u026at",
+            "en_definition": {
+                "pos": "n",
+                "defn": "a sequence of 8 bits (enough to represent one character of alphanumeric data) processed as a single unit of information"
+            },
+            "user_example_ids": [],
+            "review_times": 1,
+            "content_id": 65184,
+            "us_audio": "http://media.shanbay.com/audio/us/byte.mp3"
+        }, {
+            "en_definitions": {
+                "v": ["send cables, wires, or telegrams", "fasten with a cable"],
+                "n": ["a telegram sent abroad", "a conductor for transmitting electrical or optical signals or electric power", "a very strong thick rope made of twisted hemp or steel wire"]
+            },
+            "pronunciations": {
+                "uk": "'ke\u026abl",
+                "us": "'ke\u026abl"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fc%2Fca%2Fcable.mp3", "http://words-audio.cdn.shanbay.com/uk/c/ca/cable.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fc%2Fca%2Fcable.mp3", "http://words-audio.cdn.shanbay.com/us/c/ca/cable.mp3"]
+            },
+            "sys_example_ids": [3561, 3562, 3563],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/cable.mp3",
+            "review_status": 0,
+            "is_new": false,
+            "audio_name": "cable",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u7535\u7f06,\u6d77\u5e95\u7535\u62a5\nvt. \u6253\u6d77\u5e95\u7535\u62a5,\u628a...\u62e7\u6210\u7f06,\u7528\u7f06\u6346\u4f4f\nvi. \u6253\u6d77\u5e95\u7535\u62a5"
+            },
+            "shared_note_ids": [22464, 22091],
+            "sense_id": 0,
+            "id": 34261212037,
+            "retention": 0,
+            "definition": " n. \u7535\u7f06,\u6d77\u5e95\u7535\u62a5\nvt. \u6253\u6d77\u5e95\u7535\u62a5,\u628a...\u62e7\u6210\u7f06,\u7528\u7f06\u6346\u4f4f\nvi. \u6253\u6d77\u5e95\u7535\u62a5",
+            "audio": "http://media.shanbay.com/audio/us/cable.mp3",
+            "test_choice_ids": [1439, 5558, 13531, 12606],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "cable",
+            "pron": "'ke\u026abl",
+            "en_definition": {
+                "pos": "v",
+                "defn": "send cables, wires, or telegrams; fasten with a cable"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 1439,
+            "us_audio": "http://media.shanbay.com/audio/us/cable.mp3"
+        }, {
+            "en_definitions": {
+                "v": ["supply with a set of articles or tools"],
+                "n": ["a case for containing a set of articles", "gear consisting of a set of articles or tools for a specified purpose", "young of any of various fur-bearing animals"]
+            },
+            "pronunciations": {
+                "uk": "k\u026at",
+                "us": "k\u026at"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fk%2Fki%2Fkit.mp3", "http://words-audio.cdn.shanbay.com/uk/k/ki/kit.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fk%2Fki%2Fkit.mp3", "http://words-audio.cdn.shanbay.com/us/k/ki/kit.mp3"]
+            },
+            "sys_example_ids": [242368, 3224647, 242367],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/kit.mp3",
+            "review_status": 0,
+            "is_new": false,
+            "audio_name": "kit",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u88c5\u5907,\u5de5\u5177\u7bb1\nvt. \u88c5\u5907"
+            },
+            "shared_note_ids": [114843, 23591],
+            "sense_id": 0,
+            "id": 34261212052,
+            "retention": 0,
+            "definition": " n. \u88c5\u5907,\u5de5\u5177\u7bb1\nvt. \u88c5\u5907",
+            "audio": "http://media.shanbay.com/audio/us/kit.mp3",
+            "test_choice_ids": [10377, 7642, 8354, 19958],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "kit",
+            "pron": "k\u026at",
+            "en_definition": {
+                "pos": "v",
+                "defn": "supply with a set of articles or tools"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 7642,
+            "us_audio": "http://media.shanbay.com/audio/us/kit.mp3"
+        }, {
+            "en_definitions": {
+                "v": ["operate or control a vehicle", "travel or be transported in a vehicle", "cause someone or something to move by driving"],
+                "n": ["the act of applying force to propel something", "a mechanism by which force or power is transmitted in a machine", "a series of actions advancing a principle or tending toward a particular end"]
+            },
+            "pronunciations": {
+                "uk": "dra\u026av",
+                "us": "dra\u026av"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fd%2Fdr%2Fdrive.mp3", "http://words-audio.cdn.shanbay.com/uk/d/dr/drive.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fd%2Fdr%2Fdrive.mp3", "http://words-audio.cdn.shanbay.com/us/d/dr/drive.mp3"]
+            },
+            "sys_example_ids": [235792, 235793, 235791],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/drive.mp3",
+            "review_status": 0,
+            "is_new": false,
+            "audio_name": "drive",
+            "cn_definition": {
+                "pos": "",
+                "defn": "v. \u5f00\u8f66, \u9a71\u4f7f, \u9a7e\u8fdb\u529b\nn. \u9a7e\u8f66, \u5feb\u8f66\u9053, \u63a8\u8fdb\u529b, \u9a71\u4f7f, \u8def, \u8857"
+            },
+            "shared_note_ids": [247831, 16863],
+            "sense_id": 0,
+            "id": 34261212058,
+            "retention": 0,
+            "definition": " v. \u5f00\u8f66, \u9a71\u4f7f, \u9a7e\u8fdb\u529b\nn. \u9a7e\u8f66, \u5feb\u8f66\u9053, \u63a8\u8fdb\u529b, \u9a71\u4f7f, \u8def, \u8857",
+            "audio": "http://media.shanbay.com/audio/us/drive.mp3",
+            "test_choice_ids": [17316, 52234, 2236, 16794],
+            "learning_note_ids": [158492],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "drive",
+            "pron": "dra\u026av",
+            "en_definition": {
+                "pos": "v",
+                "defn": "operate or control a vehicle; travel or be transported in a vehicle; cause someone or something to move by driving"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 2236,
+            "us_audio": "http://media.shanbay.com/audio/us/drive.mp3"
+        }, {
+            "en_definitions": {
+                "v": ["perform as expected when applied", "serve a purpose, role, or function", "perform duties attached to a particular office or place or function"],
+                "n": ["(mathematics) a mathematical relation such that each element of a given set (the domain of the function) is associated with an element of another set (the range of the function)", "what something is used for", "the actions and activities assigned to or required or expected of a person or group"]
+            },
+            "pronunciations": {
+                "uk": "'f\u028c\u014bk\u0283n",
+                "us": "'f\u028c\u014bk\u0283n"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Ff%2Ffu%2Ffunction.mp3", "http://words-audio.cdn.shanbay.com/uk/f/fu/function.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Ff%2Ffu%2Ffunction.mp3", "http://words-audio.cdn.shanbay.com/us/f/fu/function.mp3"]
+            },
+            "sys_example_ids": [238773, 238774, 238775],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/function.mp3",
+            "review_status": 0,
+            "is_new": false,
+            "audio_name": "function",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u529f\u80fd, \u51fd\u6570, \u91cd\u5927\u805a\u4f1a\nvi. \u8fd0\u884c, \u8d77\u4f5c\u7528"
+            },
+            "shared_note_ids": [167368, 285034],
+            "sense_id": 0,
+            "id": 34261212064,
+            "retention": 1,
+            "definition": " n. \u529f\u80fd, \u51fd\u6570, \u91cd\u5927\u805a\u4f1a\nvi. \u8fd0\u884c, \u8d77\u4f5c\u7528",
+            "audio": "http://media.shanbay.com/audio/us/function.mp3",
+            "test_choice_ids": [8254, 19185, 2793, 12361],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "function",
+            "pron": "'f\u028c\u014bk\u0283n",
+            "en_definition": {
+                "pos": "v",
+                "defn": "perform as expected when applied; serve a purpose, role, or function; perform duties attached to a particular office or place or function"
+            },
+            "user_example_ids": [],
+            "review_times": 1,
+            "content_id": 2793,
+            "us_audio": "http://media.shanbay.com/audio/us/function.mp3"
+        }, {
+            "en_definitions": {
+                "n": ["a raised horizontal surface", "a document stating the aims and principles of a political party", "the combination of a particular computer and a particular operating system"]
+            },
+            "pronunciations": {
+                "uk": "'pl\u00e6tf\u0254\u02d0m",
+                "us": "'pl\u00e6tf\u0254\u02d0rm"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fp%2Fpl%2Fplatform.mp3", "http://words-audio.cdn.shanbay.com/uk/p/pl/platform.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fp%2Fpl%2Fplatform.mp3", "http://words-audio.cdn.shanbay.com/us/p/pl/platform.mp3"]
+            },
+            "sys_example_ids": [12304, 3320734, 12303],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/platform.mp3",
+            "review_status": 0,
+            "is_new": false,
+            "audio_name": "platform",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u5e73\u53f0,\u6708\u53f0,\u8bb2\u53f0,\u575b,\u8ba1\u5212"
+            },
+            "shared_note_ids": [20538, 20539],
+            "sense_id": 0,
+            "id": 34261212046,
+            "retention": 1,
+            "definition": " n. \u5e73\u53f0,\u6708\u53f0,\u8bb2\u53f0,\u575b,\u8ba1\u5212",
+            "audio": "http://media.shanbay.com/audio/us/platform.mp3",
+            "test_choice_ids": [52385, 18334, 8238, 4673],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "platform",
+            "pron": "'pl\u00e6tf\u0254\u02d0rm",
+            "en_definition": {
+                "pos": "n",
+                "defn": "a raised horizontal surface; a document stating the aims and principles of a political party; the combination of a particular computer and a particular operating system"
+            },
+            "user_example_ids": [],
+            "review_times": 1,
+            "content_id": 4673,
+            "us_audio": "http://media.shanbay.com/audio/us/platform.mp3"
+        }, {
+            "en_definitions": {
+                "adj": ["displaying numbers rather than scale positions", "relating to or performed with the fingers", "of a circuit or device that represents magnitudes in digits"]
+            },
+            "pronunciations": {
+                "uk": "'d\u026ad\u0292\u026atl",
+                "us": "'d\u026ad\u0292\u026atl"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fd%2Fdi%2Fdigital.mp3", "http://words-audio.cdn.shanbay.com/uk/d/di/digital.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fd%2Fdi%2Fdigital.mp3", "http://words-audio.cdn.shanbay.com/us/d/di/digital.mp3"]
+            },
+            "sys_example_ids": [1335640, 1335643, 1335646],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/digital.mp3",
+            "review_status": 0,
+            "is_new": false,
+            "audio_name": "digital",
+            "cn_definition": {
+                "pos": "",
+                "defn": "adj. \u624b\u6307\u7684,\u6570\u5b57\u7684,\u6570\u7801\u7684,\u7535\u5b50\u7684"
+            },
+            "shared_note_ids": [213652, 46279],
+            "sense_id": 0,
+            "id": 34261212061,
+            "retention": 0,
+            "definition": " adj. \u624b\u6307\u7684,\u6570\u5b57\u7684,\u6570\u7801\u7684,\u7535\u5b50\u7684",
+            "audio": "http://media.shanbay.com/audio/us/digital.mp3",
+            "test_choice_ids": [2100, 15672, 53614, 10842],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "digital",
+            "pron": "'d\u026ad\u0292\u026atl",
+            "en_definition": {
+                "pos": "adj",
+                "defn": "displaying numbers rather than scale positions; relating to or performed with the fingers; of a circuit or device that represents magnitudes in digits"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 2100,
+            "us_audio": "http://media.shanbay.com/audio/us/digital.mp3"
+        }, {
+            "en_definitions": {
+                "n": ["the act of increasing (something) in size or volume or quantity or scope", "a function expressed as a sum or product of terms", "a discussion that provides additional information"]
+            },
+            "pronunciations": {
+                "uk": "\u026ak'sp\u00e6n\u0283n",
+                "us": "\u026ak'sp\u00e6n\u0283n"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fe%2Fex%2Fexpansion.mp3", "http://words-audio.cdn.shanbay.com/uk/e/ex/expansion.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fe%2Fex%2Fexpansion.mp3", "http://words-audio.cdn.shanbay.com/us/e/ex/expansion.mp3"]
+            },
+            "sys_example_ids": [6402, 236915, 236916],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/expansion.mp3",
+            "review_status": 0,
+            "is_new": false,
+            "audio_name": "expansion",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u6269\u5927,\u81a8\u80c0,\u6269\u5145"
+            },
+            "shared_note_ids": [7867, 7868],
+            "sense_id": 0,
+            "id": 34261212049,
+            "retention": 0,
+            "definition": " n. \u6269\u5927,\u81a8\u80c0,\u6269\u5145",
+            "audio": "http://media.shanbay.com/audio/us/expansion.mp3",
+            "test_choice_ids": [15369, 2477, 6231, 15428],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "expansion",
+            "pron": "\u026ak'sp\u00e6n\u0283n",
+            "en_definition": {
+                "pos": "n",
+                "defn": "the act of increasing (something) in size or volume or quantity or scope; a function expressed as a sum or product of terms; a discussion that provides additional information"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 2477,
+            "us_audio": "http://media.shanbay.com/audio/us/expansion.mp3"
+        }, {
+            "en_definitions": {
+                "n": ["the quality of being adequately or well qualified physically and intellectually"]
+            },
+            "pronunciations": {
+                "uk": "'k\u0252mp\u026at\u0259nsi",
+                "us": "'k\u0251\u02d0mp\u026at\u0259nsi"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fc%2Fco%2Fcompetency.mp3", "http://words-audio.cdn.shanbay.com/uk/c/co/competency.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fc%2Fco%2Fcompetency.mp3", "http://words-audio.cdn.shanbay.com/us/c/co/competency.mp3"]
+            },
+            "sys_example_ids": [68392],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/competency.mp3",
+            "review_status": 0,
+            "is_new": false,
+            "audio_name": "competency",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u80fd\u529b,\u80dc\u4efb,\u6280\u80fd"
+            },
+            "shared_note_ids": [140324, 214503],
+            "sense_id": 0,
+            "id": 34261212031,
+            "retention": 1,
+            "definition": " n. \u80fd\u529b,\u80dc\u4efb,\u6280\u80fd",
+            "audio": "http://media.shanbay.com/audio/us/competency.mp3",
+            "test_choice_ids": [6231, 29596, 10112, 22166],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "competency",
+            "pron": "'k\u0251\u02d0mp\u026at\u0259nsi",
+            "en_definition": {
+                "pos": "n",
+                "defn": "the quality of being adequately or well qualified physically and intellectually"
+            },
+            "user_example_ids": [],
+            "review_times": 1,
+            "content_id": 29596,
+            "us_audio": "http://media.shanbay.com/audio/us/competency.mp3"
+        }, {
+            "en_definitions": {
+                "n": ["an act of being a tenant or occupant", "the act of occupying or taking possession of a building"]
+            },
+            "pronunciations": {
+                "uk": "'\u0252kj\u0259p\u0259nsi",
+                "us": "'\u0251\u02d0kj\u0259p\u0259nsi"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fo%2Foc%2Foccupancy.mp3", "http://words-audio.cdn.shanbay.com/uk/o/oc/occupancy.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fo%2Foc%2Foccupancy.mp3", "http://words-audio.cdn.shanbay.com/us/o/oc/occupancy.mp3"]
+            },
+            "sys_example_ids": [245618, 54459, 54458],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/occupancy.mp3",
+            "review_status": 0,
+            "is_new": false,
+            "audio_name": "occupancy",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u5360\u6709, \u5360\u7528\uff0c\u5c45\u4f4f\u671f\u95f4"
+            },
+            "shared_note_ids": [600236, 128389],
+            "sense_id": 0,
+            "id": 34261212043,
+            "retention": 0,
+            "definition": " n. \u5360\u6709, \u5360\u7528\uff0c\u5c45\u4f4f\u671f\u95f4",
+            "audio": "http://media.shanbay.com/audio/us/occupancy.mp3",
+            "test_choice_ids": [9770, 24315, 1378, 12606],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "occupancy",
+            "pron": "'\u0251\u02d0kj\u0259p\u0259nsi",
+            "en_definition": {
+                "pos": "n",
+                "defn": "an act of being a tenant or occupant; the act of occupying or taking possession of a building"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 24315,
+            "us_audio": "http://media.shanbay.com/audio/us/occupancy.mp3"
+        }, {
+            "en_definitions": {
+                "n": ["the act of distributing things into classes or categories of the same type", "a group of people or things arranged by class or category", "the basic cognitive process of arranging into classes or categories"]
+            },
+            "pronunciations": {
+                "uk": "\u02cckl\u00e6s\u026af\u026a'ke\u026a\u0283n",
+                "us": "\u02cckl\u00e6s\u026af\u026a'ke\u026a\u0283n"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fc%2Fcl%2Fclassification.mp3", "http://words-audio.cdn.shanbay.com/uk/c/cl/classification.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fc%2Fcl%2Fclassification.mp3", "http://words-audio.cdn.shanbay.com/us/c/cl/classification.mp3"]
+            },
+            "sys_example_ids": [4089, 4090, 159125],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/classification.mp3",
+            "review_status": 0,
+            "is_new": false,
+            "audio_name": "classification",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u5206\u7c7b,\u5206\u7ea7"
+            },
+            "shared_note_ids": [22368, 126878],
+            "sense_id": 0,
+            "id": 34261212055,
+            "retention": 1,
+            "definition": " n. \u5206\u7c7b,\u5206\u7ea7",
+            "audio": "http://media.shanbay.com/audio/us/classification.mp3",
+            "test_choice_ids": [10561, 1629, 19958, 64062],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "classification",
+            "pron": "\u02cckl\u00e6s\u026af\u026a'ke\u026a\u0283n",
+            "en_definition": {
+                "pos": "n",
+                "defn": "the act of distributing things into classes or categories of the same type; a group of people or things arranged by class or category; the basic cognitive process of arranging into classes or categories"
+            },
+            "user_example_ids": [],
+            "review_times": 1,
+            "content_id": 1629,
+            "us_audio": "http://media.shanbay.com/audio/us/classification.mp3"
+        }, {
+            "en_definitions": {
+                "n": ["the state of being anonymous"]
+            },
+            "pronunciations": {
+                "uk": "\u02cc\u00e6n\u0259'n\u026am\u0259ti",
+                "us": "\u02cc\u00e6n\u0259'n\u026am\u0259ti"
+            },
+            "learning_example_ids": [],
+            "audio_addresses": {
+                "uk": ["https://words-audio.oss.aliyuncs.com/uk%2Fa%2Fan%2Fanonymity.mp3", "http://words-audio.cdn.shanbay.com/uk/a/an/anonymity.mp3"],
+                "us": ["https://words-audio.oss.aliyuncs.com/us%2Fa%2Fan%2Fanonymity.mp3", "http://words-audio.cdn.shanbay.com/us/a/an/anonymity.mp3"]
+            },
+            "sys_example_ids": [1500505, 1500511],
+            "user_note_ids": [],
+            "uk_audio": "http://media.shanbay.com/audio/uk/anonymity.mp3",
+            "review_status": 0,
+            "is_new": false,
+            "audio_name": "anonymity",
+            "cn_definition": {
+                "pos": "",
+                "defn": "n. \u533f\u540d, \u7b14\u8005\u4e0d\u660e"
+            },
+            "shared_note_ids": [190395, 45446],
+            "sense_id": 0,
+            "id": 34261212034,
+            "retention": 0,
+            "definition": " n. \u533f\u540d, \u7b14\u8005\u4e0d\u660e",
+            "audio": "http://media.shanbay.com/audio/us/anonymity.mp3",
+            "test_choice_ids": [16691, 11785, 633, 13531],
+            "learning_note_ids": [],
+            "level": 0,
+            "has_audio": true,
+            "userid": 23124316,
+            "content": "anonymity",
+            "pron": "\u02cc\u00e6n\u0259'n\u026am\u0259ti",
+            "en_definition": {
+                "pos": "n",
+                "defn": "the state of being anonymous"
+            },
+            "user_example_ids": [],
+            "review_times": 0,
+            "content_id": 11785,
+            "us_audio": "http://media.shanbay.com/audio/us/anonymity.mp3"
+        }],
+        "result": {
+            "fetch_status": 0
+        }
+    }
+}

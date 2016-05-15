@@ -1,0 +1,154 @@
+<div class="container">
+    <div class="row divide-against-progress">
+        <div id="review" class="col-md-12">
+            <div id="learning-box" class="review-id row">
+                <div class="test-box col-md-12 learning-detail-container">
+                    <div id="learning_word" class="row">
+                        
+                        <div class="word col-md-10 col-md-offset-1">
+                            <div class="row">
+                                <div class="col-md-1">
+                                    <h6 class="pull-right">&nbsp;</h6>
+                                </div>
+                                <div class="col-md-9">
+                                    <h1 class="content pull-left" style="">{{ word.content }} 
+                                    <!-- <small>[{{ word.pronunciation[0].uk }}]</small> -->
+                                    </h1>
+                                    <div class="pull-left learning-speaker">
+                                        <small>[{{ word.pronunciation[0].uk }}]</small>
+                                        <span ng-show="word.audio[0].uk_audio" class="audio uk">UK
+                                            <span class="speaker-icon" ng-click="playAudio(word.audio[0].uk_audio)"></span>
+                                        </span>
+                                        <small>[{{ word.pronunciation[0].us }}]</small>
+                                        <span ng-show="word.audio[0].us_audio" ng-click="playAudio(word.audio[0].us_audio)" class="audio us active">US
+                                            <span class="speaker-icon"></span>
+                                        </span>
+                                    </div>
+                                    <div class="pull-right learning-operations">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-1">
+                                    <h6 class="pull-right">单词解释</h6>
+                                </div>
+                                <div id="review-definitions" class="col-md-9">
+                                    <div class="well">
+                                        <div class="row">
+                                            <div class="cndf col-md-7">
+                                                <span class="text">{{ word.cn_definition }}</span>
+                                            </div>
+                                        </div>
+                                        <div class="endf clear row" ng-repeat="data in word.en_definition">
+                                            <div class="col-md-1">
+                                                <span class="part-of-speech label">{{ data.pos }}</span>
+                                            </div>
+                                            <ol class="col-md-7">
+                                                <li class="definition" ng-repeat="content in data.defn">
+                                                    <span class="content">{{$index+1}}. {{ content.content }}</span>
+                                                </li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-1">
+                                    <h6 class="pull-right">例句</h6>
+                                </div>
+                                <div class="col-md-9">
+                                    <uib-tabset active="0">
+                                    <uib-tab index="0" heading="默认例句">
+                                        <div class="row">
+                                            <div class="col-md-12" id="learning-box" ng-repeat="example in examples">
+                                                <div class="index pull-left">{{ $index+1 }}. </div>
+                                                <div class="pull-left body">
+                                                <div class="annotation enex" ng-bind-html="example.annotation">
+                                                </div>
+                                                <div class="cnex">{{ example.translation }}</div>
+                                                <div class="edit-example-box">                     
+                                                </div>                 
+                                                </div>                           
+                                            </div>
+                                        </div>
+                                    </uib-tab>
+                                    </uib-tabset>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-1">
+                                    <h6 class="pull-right">笔记</h6>
+                                </div>
+                                <div class="col-md-9">
+                                    <uib-tabset active="model.tabIndex">
+                                    <uib-tab index="0" heading="我的笔记">
+                                        <div ng-hide="mynotes" class="null">你可以记录自己的笔记，或者收藏他人分享的</div>
+                                        <div ng-show="mynotes.length" class="row" id="notes-box" ng-repeat="note in mynotes">
+                                            <div class="index pull-left">{{$index+1}}. </div>
+                                            <div class="pull-left content">
+                                            <span>{{ note.content }}</span>
+                                            <div class="author">作者 {{ note.user.username }}</div>
+                                            </div>
+                                            <div class="">
+                                            <div class="actions btn-group pull-right">
+                                                <a ng-click="open(note)" class="more btn btn-mini" href="javascript:void(0)">更多</a>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </uib-tab>
+                                    <uib-tab index="1" heading="共享笔记" select="fetchNote($event)">
+                                    <div id="learing-box">
+                                        <div class="row" id="notes-box" ng-repeat="note in notes">
+                                            <div class="index pull-left">{{$index+1}}. </div>
+                                            <div class="pull-left content">
+                                            <span>{{ note.content }}</span>
+                                            <div class="author">作者 {{ note.user.username }}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </uib-tab>
+                                    
+                                    <uib-tab index="2" heading="创建笔记">
+                                        <!-- <div class="title"> -->
+                                            <div class="alert alert-info">笔记：用法，助记法，只要是你觉得有帮助的都可以</div>
+                                        <!-- </div> -->
+                                        <div class="content">
+                                        <p id="error" class="msg hide">笔记不能为空
+                                        </p>
+                                        <p id="msg-success" class="msg hide">
+                                        <span>你的笔记创建成功</span>
+                                        <a href="javascript:void(0)">请查阅</a>
+                                        </p>
+                                        <textarea ng-model="model.content" name="note" class="form-control" rows="3"></textarea>
+                                        <span class="loading hide">&nbsp;</span>
+                                        <div class=""><input ng-click="createNote()" type="button" class="btn" value="添加"></div>
+                                        </div>
+                                    </uib-tab>
+                                    </uib-tabset>
+                                </div>
+                            </div>
+                            <a ng-click="changeIndex()" href="javascript:;" class="continue continue-button" style="left: 980px; top: 320px;"></a>
+                        </div>
+                        <div id="cliparts" class="col-md-2"></div>
+                    </div>
+                    <div id="cliparts" class="col-md-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/ng-template" id="myModalContent.html">
+    <div class="modal-header">
+        <h3 class="modal-title">编辑笔记</h3>
+    </div>
+    <div class="modal-body">
+       <textarea ng-model="content.note.content" name="note" class="form-control" rows="3"></textarea>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-primary" type="button" ng-click="ok()">保存</button>
+        <button class="btn btn-danger" type="button" ng-click="delete()">删除</button>
+        <button class="btn btn-default" type="button" ng-click="cancel()">关闭</button>
+
+    </div>
+</script>

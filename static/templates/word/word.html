@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">单词</h3>
+      </div>
+      <div class="panel-body">
+        <p>今日单词 {{ word_num.num }}</p>
+      </div>
+      <div class="panel-footer">
+        <a ng-show="!user.level" class="btn btn-default" ui-sref="settings.word" ui-sref-opts="{reload: true}">请先选择学习的单词</a>
+        <a ng-show="user.level" class="btn btn-default" ui-sref="detail" ui-sref-opts="{reload: true}">开始学习</a>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>

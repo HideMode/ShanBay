@@ -1,0 +1,26 @@
+{
+  "name": "ShanBay",
+  "version": "1.0.0",
+  "description": "扇贝",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HideMode/ShanBay.git"
+  },
+  "author": "HideMode",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HideMode/ShanBay/issues"
+  },
+  "homepage": "https://github.com/HideMode/ShanBay",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-batch": "^1.0.5",
+    "gulp-concat": "^2.6.0",
+    "gulp-watch": "^4.3.5"
+  }
+}
