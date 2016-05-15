@@ -6,8 +6,8 @@ import requests
 import json
 import os
 from django.db import transaction, IntegrityError
-from word.models import (Word, EnDefinition, CnDefinition, Audio, Pronunciation, 
-    Example, SharedExample, Note, EnDefn)
+from word.models import (Word, EnDefinition, Audio, Pronunciation, 
+    Example, Note, EnDefn)
 
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))

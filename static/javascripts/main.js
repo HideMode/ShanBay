@@ -1,4 +1,11 @@
-define("app/account", ["angular", "account/controller/avatar", "account/controller/password", "account/controller/account", 
+define("authentication/app", ["angular", "authentication/controller/login", "authentication/controller/register", "authentication/service"], function(angular) {
+    return angular
+        .module('app.authentication', [
+            'app.authentication.controller.login',
+            'app.authentication.controller.register',
+            'app.authentication.services'
+        ]);
+}),define("app/account", ["angular", "account/controller/avatar", "account/controller/password", "account/controller/account", 
     "account/controller/word", "settings/word/service"], function(angular) {
     return angular
         .module('app.account', [
@@ -7,18 +14,6 @@ define("app/account", ["angular", "account/controller/avatar", "account/controll
             "app.account.controller.account",
             "app.account.controller.word",
             "app.settings.word.service"
-        ]);
-}),define("authentication/app", ["angular", "authentication/controller/login", "authentication/controller/register", "authentication/service"], function(angular) {
-    return angular
-        .module('app.authentication', [
-            'app.authentication.controller.login',
-            'app.authentication.controller.register',
-            'app.authentication.services'
-        ]);
-}),define("layout/app", ["angular", "layout/navbar/controller"], function(angular) {
-    return angular
-        .module('app.layout', [
-            'app.layout.controllers'
         ]);
 }),define("components/cropper/directive", ["angular", "underscore", "cropper", "components/snackbar/service", "authentication/service"], function(angular, _) {
     return angular
@@ -244,172 +239,11 @@ define("app/account", ["angular", "account/controller/avatar", "account/controll
                 }
             };
         }])
-}),define("account/controller/account", ["angular", "components/cropper/directive", "authentication/service"], function() {
-
+}),define("layout/app", ["angular", "layout/navbar/controller"], function(angular) {
     return angular
-        .module('app.account.controller.account', [])
-        .controller('AccountController', function($scope, Authentication) {
-            $rootScope.$watch('currentUser', function(nv, ov) {
-                $scope.user = Authentication.getCurrentUser()
-                    // $scope.is_authenticated = $rootScope.currentUser;
-            })
-        })
-}),define("account/controller/avatar", ["angular", "components/cropper/directive", "authentication/service"], function() {
-
-    return angular
-        .module('app.account.controller.avatar', [])
-        .controller('AvatarController', function($scope, Authentication){
-            $scope.user = Authentication.getCurrentUser()
-        })
-}),define("account/controller/password", ["angular", "authentication/service", "components/snackbar/service"], function() {
-
-    return angular
-        .module('app.account.controller.password', [])
-        .controller('PassWordController', function($scope, Authentication, Snackbar){
-            $scope.is_correct = !1;
-            $scope.is_ok = !1;
-            $scope.user = {
-                oldPwd: '',
-                newPwd: '',
-                cfmPwd: ''
-            }
-
-            $scope.checkPassword = function(){
-                Authentication.checkUserPassword($scope.user.oldPwd).then(function(data){
-                    if(data.success){
-                        Snackbar.show('密码输入正确!')
-                        $scope.is_correct = !0;
-                    }
-                    else{
-                        Snackbar.show('错误:请输入正确的密码!')
-                        $scope.is_correct = !1;
-                    }
-                });
-            }
-
-            $scope.changePassword = function(){
-                Authentication.changePassword($scope.user.newPwd, $scope.user.cfmPwd)
-            }
-
-            $scope.$watch('user.newPwd+user.cfmPwd', function(nv, ov){
-                if ($scope.user.newPwd && $scope.user.cfmPwd  && $scope.user.newPwd == $scope.user.cfmPwd){
-                    $scope.is_ok = !0;
-                }else{
-                    $scope.is_ok = !1;
-                    if ($scope.user.newPwd && $scope.user.cfmPwd){
-
-                        Snackbar.error('错误:输入的两次密码不相同!')
-                    }else{
-
-                    }
-                }
-            })
-            // $scope.$watch('user.oldPwd', function(nv, ov) {
-            //      // body...  
-            //      console.log(nv, ov)
-            // })
-
-        })
-}),define("account/controller/word", ["angular", "authentication/service", "settings/word/service", "components/snackbar/service"], function() {
-
-    return angular
-        .module('app.account.controller.word', [])
-        .controller('WordSettingController', function($rootScope, $scope, Authentication, WordOptions, Snackbar, $state) {
-            function get_obj_by_id(obj, id) {
-                var val = null;
-                if (id) {
-                    obj.forEach(function(element, index) {
-                        if (element.id == id && !val)
-                            val = element
-                    });
-                }
-                return val
-            }
-            $scope.user = $rootScope.currentUser;
-            // $scope.user = Authentication.getCurrentUser();
-            $rootScope.$watch('currentUser', function(nv, ov) {
-                $scope.user = $rootScope.currentUser;
-            })
-            WordOptions.getWordOptions().then(function(data) {
-                $scope.options = data;
-                $scope.level = get_obj_by_id(data.levels, $scope.user.level) || null;
-                $scope.word_num = get_obj_by_id(data.word_num, $scope.user.word_num) || null;
-                    // $scope.models.level = 
-            })
-            $scope.$watch('level', function(nv, ov) {
-                // console.log(nv, ov)
-            })
-            $scope.$watch('word_num', function(nv, ov) {
-                // console.log(nv, ov)
-            })
-            $scope.changeWordOptions = function() {
-                if ($scope.level){
-                    WordOptions.updateWordOptions($scope.level.id, $scope.word_num.id);
-                }else{
-                    return Snackbar.error('请选择学习的内容');
-                }
-            }
-            $rootScope.$watch('currentUser', function(nv, ov) {
-                $scope.user = $rootScope.currentUser;
-                if($scope.user === null){
-                    $state.go('login');
-                }
-            })
-        })
-}),define("settings/word/service", ["angular", "components/snackbar/service"], function(angular) {
-    return angular
-        .module('app.settings.word.service', [])
-        .factory('WordOptions', ['$rootScope', '$http', '$q', 'Snackbar', function($rootScope, $http, $q, Snackbar) {
-            return {
-                getWordOptions: function(page) {
-                    var d = $q.defer();
-                    return $http.get('/api/v1/options/')
-                        .success(function(data) {
-                            d.resolve(data);
-                        })
-                        .error(function(err) {
-                            d.reject(err);
-                        }), d.promise;
-                },
-                updateWordOptions: function(level, word_num) {
-                    var d = $q.defer();
-                    return $http.post('/api/v1/options/', {
-                            level: level || null,
-                            word_num: word_num || null
-                        })
-                        .success(function(data) {
-                            d.resolve(data);
-                            $rootScope.currentUser = data;
-                            Snackbar.show('设置修改成功')
-                        })
-                        .error(function(err) {
-                            d.reject(err);
-                            Snackbar.error('设置修改失败')
-                        }), d.promise;
-                }
-            };
-        }])
-
-}),define("authentication/controller/login", ["angular", "ngCookies", "authentication/service", "components/snackbar/service"], function() {
-
-    return angular
-        .module('app.authentication.controller.login', [])
-        .controller('LoginController', ['$location', '$scope', 'Authentication', "Snackbar", function($location, $scope, Authentication, Snackbar) {
-            var vm = this;
-            vm.login = function() {
-                Authentication.login(vm.email, vm.password);
-            }
-
-        }])
-}),define("authentication/controller/register", ["angular", "ngCookies", "authentication/service"], function(angular) {
-    return angular
-        .module('app.authentication.controller.register', [])
-        .controller('RegisterController', ['$location', '$scope', 'Authentication', function($location, $scope, Authentication) {
-            var vm = this;
-            vm.register = function() {
-                Authentication.register(vm.email, vm.password, vm.username);
-            }
-        }]);
+        .module('app.layout', [
+            'app.layout.controllers'
+        ]);
 }),define("authentication/service", ["angular", "ngCookies", "components/snackbar/service"], function(angular) {
     return angular
         .module('app.authentication.services', ['ngCookies'])
@@ -556,27 +390,172 @@ define("app/account", ["angular", "account/controller/avatar", "account/controll
 
         }]);
 
-}),define("layout/navbar/controller", ["angular", "authentication/service"], function(angular) {
+}),define("authentication/controller/login", ["angular", "ngCookies", "authentication/service", "components/snackbar/service"], function() {
+
     return angular
-        .module('app.layout.controllers', [])
-        .controller('NavbarController', ['$rootScope', '$scope', '$state', 'Authentication', function($rootScope, $scope, $state, Authentication) {
+        .module('app.authentication.controller.login', [])
+        .controller('LoginController', ['$location', '$scope', 'Authentication', "Snackbar", function($location, $scope, Authentication, Snackbar) {
             var vm = this;
-            // vm.user = $rootScope.currentUser;
-            // vm.user = Authentication.getCurrentUser();
-            vm.logout = function() {
-                    Authentication.logout();
+            vm.login = function() {
+                Authentication.login(vm.email, vm.password);
+            }
+
+        }])
+}),define("authentication/controller/register", ["angular", "ngCookies", "authentication/service"], function(angular) {
+    return angular
+        .module('app.authentication.controller.register', [])
+        .controller('RegisterController', ['$location', '$scope', 'Authentication', function($location, $scope, Authentication) {
+            var vm = this;
+            vm.register = function() {
+                Authentication.register(vm.email, vm.password, vm.username);
+            }
+        }]);
+}),define("account/controller/account", ["angular", "components/cropper/directive", "authentication/service"], function() {
+
+    return angular
+        .module('app.account.controller.account', [])
+        .controller('AccountController', function($scope, Authentication) {
+            $rootScope.$watch('currentUser', function(nv, ov) {
+                $scope.user = Authentication.getCurrentUser()
+                    // $scope.is_authenticated = $rootScope.currentUser;
+            })
+        })
+}),define("account/controller/avatar", ["angular", "components/cropper/directive", "authentication/service"], function() {
+
+    return angular
+        .module('app.account.controller.avatar', [])
+        .controller('AvatarController', function($scope, Authentication){
+            $scope.user = Authentication.getCurrentUser()
+        })
+}),define("account/controller/password", ["angular", "authentication/service", "components/snackbar/service"], function() {
+
+    return angular
+        .module('app.account.controller.password', [])
+        .controller('PassWordController', function($scope, Authentication, Snackbar){
+            $scope.is_correct = !1;
+            $scope.is_ok = !1;
+            $scope.user = {
+                oldPwd: '',
+                newPwd: '',
+                cfmPwd: ''
+            }
+
+            $scope.checkPassword = function(){
+                Authentication.checkUserPassword($scope.user.oldPwd).then(function(data){
+                    if(data.success){
+                        Snackbar.show('密码输入正确!')
+                        $scope.is_correct = !0;
+                    }
+                    else{
+                        Snackbar.show('错误:请输入正确的密码!')
+                        $scope.is_correct = !1;
+                    }
+                });
+            }
+
+            $scope.changePassword = function(){
+                Authentication.changePassword($scope.user.newPwd, $scope.user.cfmPwd)
+            }
+
+            $scope.$watch('user.newPwd+user.cfmPwd', function(nv, ov){
+                if ($scope.user.newPwd && $scope.user.cfmPwd  && $scope.user.newPwd == $scope.user.cfmPwd){
+                    $scope.is_ok = !0;
+                }else{
+                    $scope.is_ok = !1;
+                    if ($scope.user.newPwd && $scope.user.cfmPwd){
+
+                        Snackbar.error('错误:输入的两次密码不相同!')
+                    }else{
+
+                    }
                 }
-                // words
-            vm.searchWord = function() {
-                Word.serachWord(vm.words).then(function(data){
-                    
-                })
+            })
+            // $scope.$watch('user.oldPwd', function(nv, ov) {
+            //      // body...  
+            //      console.log(nv, ov)
+            // })
+
+        })
+}),define("account/controller/word", ["angular", "authentication/service", "settings/word/service", "components/snackbar/service"], function() {
+
+    return angular
+        .module('app.account.controller.word', [])
+        .controller('WordSettingController', function($rootScope, $scope, Authentication, WordOptions, Snackbar, $state) {
+            function get_obj_by_id(obj, id) {
+                var val = null;
+                if (id) {
+                    obj.forEach(function(element, index) {
+                        if (element.id == id && !val)
+                            val = element
+                    });
+                }
+                return val
+            }
+            $scope.user = $rootScope.currentUser;
+            // $scope.user = Authentication.getCurrentUser();
+            $rootScope.$watch('currentUser', function(nv, ov) {
+                $scope.user = $rootScope.currentUser;
+            })
+            WordOptions.getWordOptions().then(function(data) {
+                $scope.options = data;
+                $scope.level = get_obj_by_id(data.levels, $scope.user.level) || null;
+                $scope.word_num = get_obj_by_id(data.word_num, $scope.user.word_num) || null;
+                    // $scope.models.level = 
+            })
+            $scope.$watch('level', function(nv, ov) {
+                // console.log(nv, ov)
+            })
+            $scope.$watch('word_num', function(nv, ov) {
+                // console.log(nv, ov)
+            })
+            $scope.changeWordOptions = function() {
+                if ($scope.level){
+                    WordOptions.updateWordOptions($scope.level.id, $scope.word_num.id);
+                }else{
+                    return Snackbar.error('请选择学习的内容');
+                }
             }
             $rootScope.$watch('currentUser', function(nv, ov) {
-                vm.user = $rootScope.currentUser;
-                vm.is_authenticate = $rootScope.currentUser;
+                $scope.user = $rootScope.currentUser;
+                if($scope.user === null){
+                    $state.go('login');
+                }
             })
+        })
+}),define("settings/word/service", ["angular", "components/snackbar/service"], function(angular) {
+    return angular
+        .module('app.settings.word.service', [])
+        .factory('WordOptions', ['$rootScope', '$http', '$q', 'Snackbar', function($rootScope, $http, $q, Snackbar) {
+            return {
+                getWordOptions: function(page) {
+                    var d = $q.defer();
+                    return $http.get('/api/v1/options/')
+                        .success(function(data) {
+                            d.resolve(data);
+                        })
+                        .error(function(err) {
+                            d.reject(err);
+                        }), d.promise;
+                },
+                updateWordOptions: function(level, word_num) {
+                    var d = $q.defer();
+                    return $http.post('/api/v1/options/', {
+                            level: level || null,
+                            word_num: word_num || null
+                        })
+                        .success(function(data) {
+                            d.resolve(data);
+                            $rootScope.currentUser = data;
+                            Snackbar.show('设置修改成功')
+                        })
+                        .error(function(err) {
+                            d.reject(err);
+                            Snackbar.error('设置修改失败')
+                        }), d.promise;
+                }
+            };
         }])
+
 }),define("word/detail/controller", ["angular", "ngSanitize", "authentication/service", "word/service", "components/snackbar/service", "settings/word/service"], function(angular) {
 
     return angular
@@ -786,6 +765,27 @@ define("app/account", ["angular", "account/controller/avatar", "account/controll
                 })
             }
         ]);
+}),define("layout/navbar/controller", ["angular", "authentication/service"], function(angular) {
+    return angular
+        .module('app.layout.controllers', [])
+        .controller('NavbarController', ['$rootScope', '$scope', '$state', 'Authentication', function($rootScope, $scope, $state, Authentication) {
+            var vm = this;
+            // vm.user = $rootScope.currentUser;
+            // vm.user = Authentication.getCurrentUser();
+            vm.logout = function() {
+                    Authentication.logout();
+                }
+                // words
+            vm.searchWord = function() {
+                Word.serachWord(vm.words).then(function(data){
+                    
+                })
+            }
+            $rootScope.$watch('currentUser', function(nv, ov) {
+                vm.user = $rootScope.currentUser;
+                vm.is_authenticate = $rootScope.currentUser;
+            })
+        }])
 }),define("app", ["angular", "ngAnimate", "uiBootstrapTpls", "layout/app", "authentication/app", "app/account", "app/routes", "components/module", "app/word"], function(angular) {
     return angular
         .module('app', [

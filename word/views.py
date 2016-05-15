@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from django.shortcuts import get_object_or_404
+from django.core.cache import cache
 from django.http import HttpResponse
 from django.core import serializers
 from rest_framework import permissions, viewsets, status, views
@@ -15,6 +16,7 @@ from .models import Word, EnDefinition, Level, Note
 from authentication.models import Account
 from .serializers import WordSerializer, ExampleSerializer, NoteSerializer
 import json
+import datetime
 # Create your views here.
 
 class WordPagination(PageNumberPagination):
@@ -47,9 +49,23 @@ class UserWordAPI(GenericAPIView):
     pagination_class = WordPagination
 
     def get_queryset(self):
+        """
+        将用户每日单词放入服务器cache中，保持用户每日单词的统一性
+        """
         user = self.request.user
         if user.is_authenticated():
-            return user.level.word.order_by('?')
+            user_cache = cache.get(user.username, None)
+            today = datetime.datetime.today().date()
+            if user_cache is not None and user_cache.get('date') == today:
+                words_ids = user_cache.get('words', [])
+                print(user_cache.get('words', [])[:])
+                return user.level.word.filter(pk__in=user_cache.get('words', [])[:])
+            else:
+                # 随机取数
+                words_list = user.level.word.order_by('?')[:user.get_word_num_display()]
+                words_ids = words_list.values_list('id', flat=True)
+                cache.set(user.username,{'words': words_ids, 'date': today})
+                return user.level.word.filter(pk__in=words_ids[:])
         return None
 
     def get(self, request):
@@ -63,6 +79,9 @@ class UserWordAPI(GenericAPIView):
 
 
 class ExampleViewSet(views.APIView):
+    """
+    例句api
+    """
     queryset = []
     serializer_class = ExampleSerializer
     pagination_class = ExamplePagination

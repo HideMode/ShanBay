@@ -8,9 +8,9 @@ class Command(BaseCommand):
     help = 'sync data'
 
     def handle(self, *args, **options):
-        file_name_list = ['data1.json', 'data1.json']
+        file_name_list = ['data1.json', 'data1.json', 'data3.json']
         print('download start')
-        for file_name in file_name_list
+        for file_name in file_name_list:
             serialize_data(file_name)
             sync_example_data(file_name)
         print('download end')
