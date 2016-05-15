@@ -34,7 +34,7 @@ class Account(AbstractBaseUser, PermissionsMixin):
     """
     user model
     """
-    WORD_NUM = ((1, 40), (2, 60), (3, 100))
+    WORD_NUM = ((1, 10), (2, 20), (3, 30))
     email = models.EmailField(u'邮箱', unique=True)
     username = models.CharField(u'用户名', max_length=40, unique=True)
     avatar = models.ImageField(u'头像', default="users/avatar.jpg", upload_to="users/avatar", max_length=200)

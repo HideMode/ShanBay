@@ -32,7 +32,6 @@ def process_data(data):
                         obj.en_definition.add(en)
 
             else:
-                print('UPDATE DATA')
                 obj = Word.objects.create(content=content, cn_definition=item['cn_definition'].get('defn', '') if item['cn_definition'] else '')
                 Pronunciation.objects.create(word=obj, us=item['pronunciations'].get('us', ''), uk=item['pronunciations'].get('uk', ''))
                 for sub in item['en_definitions']:
