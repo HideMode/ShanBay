@@ -14,6 +14,7 @@
 		'ui-bootstrap-tpls.min': "../bower_components/angular-bootstrap/ui-bootstrap-tpls.min",
 		'cropper.min': "../bower_components/cropper/dist/cropper.min",
 		'angular-aria': "../bower_components/angular-aria/angular-aria",
+	    'angular-animate': "../bower_components/angular-animate/angular-animate",
 		'angular-cookies': "../bower_components/angular-cookies/angular-cookies",
 		'angular-sanitize': "../bower_components/angular-sanitize/angular-sanitize",
 		'snackbar.min': "../bower_components/snackbarjs/dist/snackbar.min"
