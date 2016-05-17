@@ -873,19 +873,19 @@ define("authentication/app", ["angular", "authentication/controller/login", "aut
         })
 }),requirejs.config({
     paths: {
-        underscore: "/static/bower_components/underscore/underscore",
-        jquery: "/static/bower_components/jquery/dist/jquery",
-        angular: "/static/bower_components/angular/angular",
-        uiRouter: "/static/bower_components/angular-ui-router/release/angular-ui-router",
-        uiBootstrap: "/static/bower_components/angular-bootstrap/ui-bootstrap.min",
-        uiBootstrapTpls: "/static/bower_components/angular-bootstrap/ui-bootstrap-tpls.min",
-        cropper: "/static/bower_components/cropper/dist/cropper.min",
-        ngAnimate: "/static/bower_components/angular-animate/angular-animate",
-        ngAria: "/static/bower_components/angular-aria/angular-aria",
-        ngCookies: "/static/bower_components/angular-cookies/angular-cookies",
-        ngSanitize: "/static/bower_components/angular-sanitize/angular-sanitize",
+        underscore: "/static/bulid/underscore",
+        jquery: "/static/bulid/jquery",
+        angular: "/static/bulid/angular",
+        uiRouter: "/static/bulid/angular-ui-router",
+        uiBootstrap: "/static/bulid/ui-bootstrap.min",
+        uiBootstrapTpls: "/static/bulid/ui-bootstrap-tpls.min",
+        cropper: "/static/bulid/cropper.min",
+        ngAnimate: "/static/bulid/angular-animate",
+        ngAria: "/static/bulid/angular-aria",
+        ngCookies: "/static/bulid/angular-cookies",
+        ngSanitize: "/static/bulid/angular-sanitize",
         app: "/static/javascripts/app",
-        snackbar: "/static/bower_components/snackbarjs/dist/snackbar.min"
+        snackbar: "/static/bulid/snackbar.min"
     },
     shim: {
         angular: {
