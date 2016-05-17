@@ -873,19 +873,19 @@ define("authentication/app", ["angular", "authentication/controller/login", "aut
         })
 }),requirejs.config({
     paths: {
-        underscore: "/static/bulid/underscore",
-        jquery: "/static/bulid/jquery",
-        angular: "/static/bulid/angular",
-        uiRouter: "/static/bulid/angular-ui-router",
-        uiBootstrap: "/static/bulid/ui-bootstrap.min",
-        uiBootstrapTpls: "/static/bulid/ui-bootstrap-tpls.min",
-        cropper: "/static/bulid/cropper.min",
-        ngAnimate: "/static/bulid/angular-animate",
-        ngAria: "/static/bulid/angular-aria",
-        ngCookies: "/static/bulid/angular-cookies",
-        ngSanitize: "/static/bulid/angular-sanitize",
+        underscore: "/static/build/underscore",
+        jquery: "/static/build/jquery",
+        angular: "/static/build/angular",
+        uiRouter: "/static/build/angular-ui-router",
+        uiBootstrap: "/static/build/ui-bootstrap.min",
+        uiBootstrapTpls: "/static/build/ui-bootstrap-tpls.min",
+        cropper: "/static/build/cropper.min",
+        ngAnimate: "/static/build/angular-animate",
+        ngAria: "/static/build/angular-aria",
+        ngCookies: "/static/build/angular-cookies",
+        ngSanitize: "/static/build/angular-sanitize",
         app: "/static/javascripts/app",
-        snackbar: "/static/bulid/snackbar.min"
+        snackbar: "/static/build/snackbar.min"
     },
     shim: {
         angular: {
